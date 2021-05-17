@@ -20,7 +20,7 @@ window.onload = function () {
   document.addEventListener("visibilitychange", function (e) {
     if (!document.hidden) {
       document.title = pageTitle;
-      favicon.href = "./assets/images/favicon.svg";
+      favicon.href = "./assets/images/favicon.png";
     }
   });
 
@@ -28,7 +28,7 @@ window.onload = function () {
     blinkEvent = setInterval(() => {
       if (document.title === attentionMessage) {
         document.title = pageTitle;
-        favicon.href = "./assets/images/favicon.svg";
+        favicon.href = "./assets/images/favicon.png";
       } else {
         document.title = attentionMessage;
         favicon.href = "./assets/images/sad.png";
