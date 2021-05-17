@@ -97,8 +97,8 @@ let header = $(`
   <label class='switch'>
     <input type='checkbox' id="checkboxtoggle" class='checkbox'>
     <span class='slider rounded'>
-      <i class="fas fa-moon night"></i>
       <i class="fas fa-sun day"></i>
+      <i class="fas fa-moon night"></i>
     </span>
   </label>
 </div>
