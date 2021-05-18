@@ -9,7 +9,7 @@ const research = [
         conferences : "Association for the Advancement of Artificial Intelligence (AAAI) 2021",
         researchYr : 2021,
         citebox : "popup1",
-        image : "assets/images/research-page/inteferenceNetwork.png",
+        image : "assets/images/research-page/VGG16.png",
         citation: {
             vancouver: "Ho Ming Jun, Kyi Nuu Khin Khin, Ng Ngai Teng Colin, Rani Karthigeyan Rajendrakumar, Toh Hai Jie Joey, Toh Hong Xian (Ray). Predicting Ripeness of Freshness of Fruits. Association for the Advancement of Artificial Intelligence 2021."
         },
