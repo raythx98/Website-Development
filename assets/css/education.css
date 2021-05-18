@@ -36,7 +36,7 @@ html[data-theme = 'dark']
   .dropdown2{
     position: absolute;
     text-align: center;
-    /* padding-top: 7rem; */
+    padding-top: 1rem;
     z-index: 3;
   }
   .godown{
