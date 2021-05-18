@@ -211,12 +211,13 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
             <h6 class="display">Contact Me!</h6>
-            <form>
+            <form action = 'https://formsubmit.io/send/raythx98@gmail.com' method = 'POST'>
               <input type="text" name="field1" placeholder="Your Name" />
               <input type="email" name="field2" placeholder="Email Address" />
-              <input type="number" name="field3" placeholder="Email Address" />
+              <input type="text" name="field3" placeholder="Mobile Number" />
               <textarea name="field4" placeholder="Type your Message"></textarea>
               <input type="submit" value="Send" />
+              <button class="submit" type="submit">Send</button>
             </form>
           </div>
         </div>
