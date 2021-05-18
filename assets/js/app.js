@@ -211,10 +211,9 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
             <h6 class="display">Contact Me!</h6>
-            <form action="https://formsubmit.co/1ad89f57552064add2679b10be14253f" method="POST">
+            <form action="https://formsubmit.co/1ad89f57552064add2679b10be14253f" method="POST" target="_blank">
               <input type="hidden" name="_captcha" value="false">
-              <input type="hidden" name="_next" value="https://raythx98.github.io/portfolio-website/">
-              <input type="hidden" name="_autoresponse" value="Thank you for contacting me, I will get back to you ASAP!">
+              <input type="hidden" name="_next" value="https://raythx98.github.io/portfolio-website/submitted.html">
               <input type="text" name="field1" placeholder="Your Name" required/>
               <input type="email" name="field2" placeholder="Email Address" required/>
               <textarea name="field4" placeholder="Type your Message" required></textarea>
