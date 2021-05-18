@@ -214,7 +214,8 @@ let footer = $(`
             <form>
               <input type="text" name="field1" placeholder="Your Name" />
               <input type="email" name="field2" placeholder="Email Address" />
-              <textarea name="field3" placeholder="Type your Message"></textarea>
+              <input type="number" name="field3" placeholder="Email Address" />
+              <textarea name="field4" placeholder="Type your Message"></textarea>
               <input type="submit" value="Send" />
             </form>
           </div>
