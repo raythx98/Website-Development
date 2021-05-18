@@ -16,6 +16,16 @@ html[data-theme = 'dark']
 
 /* -----Education Section CSS----- */
 
+.heading1 {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #222;
+  margin: 0.5em 0;
+  margin-top: 5rem;
+  color:var(--text);
+}
+
 @media (max-width:766px) {
   .dropdown1{
     position: absolute;
