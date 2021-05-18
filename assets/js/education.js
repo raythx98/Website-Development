@@ -26,7 +26,7 @@ const moocscards = [
   },
   {
     title: "Build Your First Android App",
-    cardImage: "assets/images/education-page/coursera1.png",
+    cardImage: "assets/images/education-page/coursera.png",
     moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
   }
 
