@@ -214,10 +214,10 @@ let footer = $(`
             <form action="https://formsubmit.co/ipinkray@gmail.com" method="POST">
               <input type="hidden" name="_next" value="google.com">
               <input type="hidden" name="_autoresponse" value="Thank you for contacting me, I will get back to you ASAP!">
-              <input type="text" name="field1" placeholder="Your Name" />
-              <input type="email" name="field2" placeholder="Email Address" />
-              <input type="text" name="field3" placeholder="Mobile Number" />
-              <textarea name="field4" placeholder="Type your Message"></textarea>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="text" name="field1" placeholder="Your Name" required/>
+              <input type="email" name="field2" placeholder="Email Address" required/>
+              <textarea name="field4" placeholder="Type your Message" required></textarea>
               <input type="submit" value="Send" />
             </form>
           </div>
