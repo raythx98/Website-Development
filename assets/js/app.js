@@ -211,7 +211,7 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
             <h6 class="display">Contact Me!</h6>
-            <form action="https://formsubmit.co/ipinkray@gmail.com" method="POST">
+            <form action="https://formsubmit.co/raythx98@gmail.com" method="POST">
               <input type="text" name="field1" placeholder="Your Name" required/>
               <input type="email" name="field2" placeholder="Email Address" required/>
               <textarea name="field4" placeholder="Type your Message" required></textarea>
