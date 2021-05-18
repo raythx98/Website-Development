@@ -4,21 +4,21 @@ const techexperiencecards = document.querySelector(".technical-experience-cards"
 const techexp = [
   {
     title: "Artificial Intelligence Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
+    cardImage: "assets/images/experience-page/dsta.jpg",
     place: "Defence Science & Technology Agency (DSTA)",
     time: "(May 2021 - Aug 2021)",
     desp: "<li>Developed smart behavior for computer-generated forces within a computer simulation model. Training an Artificial Intelligent model through deep reinforcement learning methods.</li> <li>Explored the use of Soft-Actor Critic, Proximal Policy Optimisation, and self-attention mechanism to improve on the existing models.</li> <li>The final AI model is used to command simulation agents to perform various actions based on states observed within the simulation world.</li>",
   },
   {
     title: "Teaching Assistant",
-    cardImage: "assets/images/experience-page/gsoc.png",
+    cardImage: "assets/images/experience-page/nus.png",
     place: "National University of Singapore (NUS)",
     time: "(Mar - Aug, 2019)",
     desp: "<li>Teaching Assistant for CS1101S Programming Methodology, a rigorous and thorough introductory programming course for Computer Science freshmen.</li><li>Taught vital programming concepts such as abstraction, data structures, object-oriented programming and dynamic programming.</li><li>Provided prompt feedback to my students' submissions of homework and keep track of their overall performance.</li>",
   },
   {
     title: "Neuro-linguistic Processing Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/dsta.jpg",
     place: "Defence Science & Technology Agency (DSTA)",
     time: "(Nov 2016 - Dec 2016)",
     desp:"<li>Explored the use of chat-bot technology to transform the NS experience.</li><li>Suggested and implemented improvements to the existing chat-bot prototype, MyNSBuddy.</li><li>Further explored on use of cognitive APIs, such as OCR and google maps, to augment the bot framework.</li>",
@@ -62,21 +62,21 @@ const workexperiencecards = document.querySelector(".work-experience-cards");
 const workexp = [
   {
     title: "Tax Officer",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
+    cardImage: "assets/images/experience-page/iras.jpg",
     place: "Inland Revenue Authority of Singapore (IRAS)",
     time: "(Jun 2020 - Aug 2020)",
     desp: "<li>Served up to 50 taxpayers by clarifying any tax queries and handling tax-related matters such as tax filing, objection to assessment, payment and refund.</li> <li>Handled SIRS and income relief matters during COVID-19 period.</li> <li>Worked with senior tax officers to resolve conflicts regarding tax clearance and double taxation act.</li>",
   },
   {
     title: "Changi Experience Ambassador",
-    cardImage: "assets/images/experience-page/gsoc.png",
+    cardImage: "assets/images/experience-page/CAG.png",
     place: "Changi Airport Group",
     time: "(Dec 2018 - Sep 2019)",
     desp: "<li>Provided the Changi Experience at the world's best airport by performing Counter and Roving operations.</li><li>Engaged passengers to establish their flight details so as to better introduce and suggest available facilities and retail options.</li><li>handled all ad-hoc services relating to the operations, such as a security breach or medical emergency.</li>",
   },
   {
     title: "Service Ambassador",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
+    cardImage: "assets/images/experience-page/maybank.jpg",
     place: "Maybank Singapore",
     time: "(Nov 2014 - Dec 2014)",
     desp:"<li>Efficiently directed and managed branch traffic by ensuring that all customers are served within the defined timelines.</li><li>Completed customer complaint management as per defined guidelines.</li><li>Developed new prospects and interacted with existing customers to increase sales of the banks’ products and/or services by being as a focal point for all customers walking in the branch.</li>",
