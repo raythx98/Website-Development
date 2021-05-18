@@ -211,7 +211,8 @@ let footer = $(`
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
             <h6 class="display">Contact Me!</h6>
-            <form action = 'https://formsubmit.io/send/raythx98@gmail.com' formtarget="_blank" method = 'POST'>
+            <form action="https://formsubmit.co/ipinkray@gmail.com" formtarget="_blank" method = 'POST'>
+              <input type="hidden" name="_next" value="google.com">
               <input type="text" name="field1" placeholder="Your Name" />
               <input type="email" name="field2" placeholder="Email Address" />
               <input type="text" name="field3" placeholder="Mobile Number" />
