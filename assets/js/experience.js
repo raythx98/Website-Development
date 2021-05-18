@@ -7,21 +7,21 @@ const techexp = [
     cardImage: "assets/images/experience-page/flipkart.jpg",
     place: "Defence Science & Technology Agency (DSTA)",
     time: "(May 2021 - Aug 2021)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Developed smart behavior for computer-generated forces within a computer simulation model. Training an Artificial Intelligent model through deep reinforcement learning methods.</li> <li>Explored the use of Soft-Actor Critic, Proximal Policy Optimisation, and self-attention mechanism to improve on the existing models.</li> <li>The final AI model is used to command simulation agents to perform various actions based on states observed within the simulation world.</li>",
   },
   {
     title: "Teaching Assistant",
     cardImage: "assets/images/experience-page/gsoc.png",
     place: "National University of Singapore (NUS)",
     time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    desp: "<li>Teaching Assistant for CS1101S Programming Methodology, a rigorous and thorough introductory programming course for Computer Science freshmen.</li><li>Taught vital programming concepts such as abstraction, data structures, object-oriented programming and dynamic programming.</li><li>Provided prompt feedback to my students' submissions of homework and keep track of their overall performance.</li>",
   },
   {
     title: "Neuro-linguistic Processing Intern",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "Defence Science & Technology Agency (DSTA)",
     time: "(Nov 2016 - Dec 2016)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp:"<li>Explored the use of chat-bot technology to transform the NS experience.</li><li>Suggested and implemented improvements to the existing chat-bot prototype, MyNSBuddy.</li><li>Further explored on use of cognitive APIs, such as OCR and google maps, to augment the bot framework.</li>",
   },
 ];
 
