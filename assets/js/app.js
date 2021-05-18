@@ -214,6 +214,7 @@ let footer = $(`
             <form action="https://formsubmit.co/1ad89f57552064add2679b10be14253f" method="POST">
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://raythx98.github.io/portfolio-website/">
+              <input type="hidden" name="_autoresponse" value="Thank you for contacting me, I will get back to you ASAP!">
               <input type="text" name="field1" placeholder="Your Name" required/>
               <input type="email" name="field2" placeholder="Email Address" required/>
               <textarea name="field4" placeholder="Type your Message" required></textarea>
