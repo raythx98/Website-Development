@@ -51,7 +51,7 @@ const techShowCards2 = () => {
     </ul>
       `)
   );
-  experiencecards.innerHTML = output;
+  techexperiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", techShowCards2);
 
@@ -109,7 +109,7 @@ const workShowCards2 = () => {
     </ul>
       `)
   );
-  experiencecards.innerHTML = output;
+  workexperiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", workShowCards2);
 
