@@ -27,7 +27,7 @@ const techexp = [
 
 const techShowCards2 = () => {
   let output = "";
-  exp.forEach(
+  techexp.forEach(
     ({ title, cardImage, place, time, desp }) =>
       (output += `        
       <ul>
@@ -85,7 +85,7 @@ const workexp = [
 
 const workShowCards2 = () => {
   let output = "";
-  exp.forEach(
+  workexp.forEach(
     ({ title, cardImage, place, time, desp }) =>
       (output += `        
       <ul>
