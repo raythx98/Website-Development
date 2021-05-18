@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", techShowCards2);
 //  Work experience cards
 
 
-const workexperiencecards = document.querySelector(".technical-experience-cards");
+const workexperiencecards = document.querySelector(".work-experience-cards");
 const workexp = [
   {
     title: "Software Development Intern",
