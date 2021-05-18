@@ -109,7 +109,7 @@ let footer = $(`
   <div class="container p-4">
     <div class="row">
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center align-self-center">
-        <p class="tag" >"Develop a passion for learning. If you do, you will never cease to grow."
+        <p class="tag" >If you wish to contact me, report bugs or alert me of secret security flaws, contact me via my social media platforms below! Alternatively, you can reach me via the form."
         </p>
           <div class="rounded-social-buttons tag">
 
