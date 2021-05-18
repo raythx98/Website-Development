@@ -3,24 +3,24 @@
 const techexperiencecards = document.querySelector(".technical-experience-cards");
 const techexp = [
   {
-    title: "Software Development Intern",
+    title: "Artificial Intelligence Intern",
     cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
+    place: "Defence Science & Technology Agency (DSTA)",
+    time: "(May 2021 - Aug 2021)",
     desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
   },
   {
-    title: "Student Developer",
+    title: "Teaching Assistant",
     cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
+    place: "National University of Singapore (NUS)",
     time: "(Mar - Aug, 2019)",
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
   {
-    title: "Research Intern",
+    title: "NLP Intern",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
+    place: "Defence Science & Technology Agency (DSTA)",
+    time: "(Nov 2016 - Dec 2016)",
     desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
   },
 ];
@@ -61,25 +61,25 @@ document.addEventListener("DOMContentLoaded", techShowCards2);
 const workexperiencecards = document.querySelector(".work-experience-cards");
 const workexp = [
   {
-    title: "Software Development Intern",
+    title: "Tax Officer",
     cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    place: "Inland Revenue Authority of Singapore (IRAS)",
+    time: "(Jun 2020 - Aug 2020)",
+    desp: "<li>Served up to 50 taxpayers by clarifying any tax queries and handling tax-related matters such as tax filing, objection to assessment, payment and refund.</li> <li>Handled SIRS and income relief matters during COVID-19 period.</li> <li>Worked with senior tax officers to resolve conflicts regarding tax clearance and double taxation act.</li>",
   },
   {
-    title: "Student Developer",
+    title: "Changi Experience Ambassador",
     cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    place: "Changi Airport Group",
+    time: "(Dec 2018 - Sep 2019)",
+    desp: "<li>Provided the Changi Experience at the world's best airport by performing Counter and Roving operations.</li><li>Engaged passengers to establish their flight details so as to better introduce and suggest available facilities and retail options.</li><li>handled all ad-hoc services relating to the operations, such as a security breach or medical emergency.</li>",
   },
   {
-    title: "Research Intern",
+    title: "Service Ambassador",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    place: "Maybank Singapore",
+    time: "(Nov 2014 - Dec 2014)",
+    desp:"<li>Efficiently directed and managed branch traffic by ensuring that all customers are served within the defined timelines.</li><li>This includes complete customer complaint management as per defined guidelines.</li><li>Developed new prospects and interacted with existing customers to increase sales of the banks’ products and/or services by being as a focal point for all customers walking in the branch.</li>",
   },
 ];
 
