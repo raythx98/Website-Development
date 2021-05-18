@@ -17,7 +17,7 @@ const techexp = [
     desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
   {
-    title: "NLP Intern",
+    title: "Neuro-linguistic Processing Intern",
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "Defence Science & Technology Agency (DSTA)",
     time: "(Nov 2016 - Dec 2016)",
@@ -79,7 +79,7 @@ const workexp = [
     cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
     place: "Maybank Singapore",
     time: "(Nov 2014 - Dec 2014)",
-    desp:"<li>Efficiently directed and managed branch traffic by ensuring that all customers are served within the defined timelines.</li><li>This includes complete customer complaint management as per defined guidelines.</li><li>Developed new prospects and interacted with existing customers to increase sales of the banks’ products and/or services by being as a focal point for all customers walking in the branch.</li>",
+    desp:"<li>Efficiently directed and managed branch traffic by ensuring that all customers are served within the defined timelines.</li><li>Completed customer complaint management as per defined guidelines.</li><li>Developed new prospects and interacted with existing customers to increase sales of the banks’ products and/or services by being as a focal point for all customers walking in the branch.</li>",
   },
 ];
 
