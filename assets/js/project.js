@@ -21,7 +21,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "CODE_EXP Hackathon",
+    title: "CODE_EXP Mobile Application",
     cardImage: "assets/images/project-page/code_exp.png",
     description: "Android mobile application built using Android Studios.",
     tagimg: "https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png",
@@ -46,7 +46,7 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "Database Systems",
+    title: "Database Systems Project",
     cardImage: "assets/images/project-page/database_systems.png",
     description:
       "Database Systems for company built using PostgreSQL.",
