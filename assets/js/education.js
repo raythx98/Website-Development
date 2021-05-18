@@ -17,17 +17,17 @@ const moocscards = [
   {
     title: "Data Analytics With Python",
     cardImage: "assets/images/education-page/hackwagon.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://elearn.hackwagon.com/certificate/yr3jB36KF5yPp6BjA",
   },
   {
     title: "Introduction to Programming with MatLab",
     cardImage: "assets/images/education-page/vanderbilt.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/APG4KUXWLC28",
   },
   {
     title: "Build Your First Android App",
     cardImage: "assets/images/education-page/coursera.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.coursera.org/account/accomplishments/verify/SLPD69CB6BL2",
   }
 
 ];
