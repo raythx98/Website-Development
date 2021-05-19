@@ -374,7 +374,7 @@ html {
 .switch{
   position:relative;
   display: inline-block;
-  width: 100px;
+  width: 60px;
   height: 34px;
 }
 
@@ -392,7 +392,7 @@ html {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 15;
+  bottom: -15;
   background-color: #000;
   -webkit-transition: .4s;
   transition: .4s;
@@ -462,7 +462,6 @@ body.darkmode .heading1, .darkmodetext.main-heading, .darkmodetext.pre-heading{
 .night{
   margin-left: 5% !important;
   margin-top: 15%;
-  padding-right: 15%;
   vertical-align: middle;
   color: white;
 }
@@ -471,7 +470,6 @@ body.darkmode .heading1, .darkmodetext.main-heading, .darkmodetext.pre-heading{
   margin-left: 5%;
   margin-right: 5% !important;
   margin-top: 15%;
-  padding-left: 15%;
   vertical-align: middle;
   color: yellow;
 }
