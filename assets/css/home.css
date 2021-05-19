@@ -469,7 +469,7 @@ a:hover {
 
 @media only screen and (max-width:780px){
   .text{
-    margin-top:6rem;
+    margin-top:5rem;
   }
 }
 
@@ -481,7 +481,7 @@ a:hover {
 
 @media only screen and (max-width:580px){
   .text{
-    margin-top:4rem;
+    margin-top:6rem;
   }
 }
 
