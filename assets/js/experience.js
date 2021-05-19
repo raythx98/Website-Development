@@ -65,7 +65,7 @@ const workexp = [
     cardImage: "assets/images/experience-page/iras.png",
     place: "Inland Revenue Authority of Singapore (IRAS)",
     time: "(Jun 2020 - Aug 2020)",
-    desp: "<li>Served up to 50 taxpayers by clarifying any tax queries and handling tax-related matters such as tax filing, objection to assessment, payment and refund.</li> <li>Handled SIRS and income relief matters during COVID-19 period.</li> <li>Worked with senior tax officers to resolve conflicts regarding tax clearance and double taxation act.</li>",
+    desp: "<li>Served up to 50 taxpayers by clarifying any tax queries and handling tax-related matters such as tax filing, objection to assessment, payment and refund.</li> <li>Worked with senior tax officers to resolve conflicts regarding tax clearance and double taxation act.</li>",
   },
   {
     title: "Changi Experience Ambassador",
@@ -79,7 +79,7 @@ const workexp = [
     cardImage: "assets/images/experience-page/maybank.png",
     place: "Maybank Singapore",
     time: "(Nov 2014 - Dec 2014)",
-    desp:"<li>Efficiently directed and managed branch traffic by ensuring that all customers are served within the defined timelines.</li><li>Completed customer complaint management as per defined guidelines.</li><li>Developed new prospects and interacted with existing customers to increase sales of the banks’ products and/or services by being as a focal point for all customers walking in the branch.</li>",
+    desp:"<li>Efficiently directed and managed branch traffic by ensuring that all customers are served within the defined timelines.</li><li>Developed new prospects and interacted with existing customers to increase sales of the banks’ products and/or services by being as a focal point for all customers walking in the branch.</li>",
   },
 ];
 
