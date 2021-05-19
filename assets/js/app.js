@@ -24,8 +24,8 @@ let header = $(`
     <label class='switch' align-self-center>
       <input type='checkbox' id="checkboxtoggle" class='checkbox'>
       <span class='slider rounded' align-self-center>
-        <i class="fas fa-sun day"></i>
-        <i class="fas fa-moon night"></i>
+        <i class="fas fa-sun day align-self-center"></i>
+        <i class="fas fa-moon night align-self-center"></i>
       </span>
     </label>
    </li>
