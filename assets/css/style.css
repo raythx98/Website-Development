@@ -458,14 +458,14 @@ body.darkmode .heading1, .darkmodetext.main-heading, .darkmodetext.pre-heading{
   filter: invert(100%) !important;
 }
 .night{
-  margin-left: 5% !important;
+  margin-left: 2.5% !important;
   margin-top: 15%;
   vertical-align: middle;
   color: white;
 }
 
 .day{
-  margin-right: 5% !important;
+  margin-right: 2.5% !important;
   margin-top: 15%;
   padding-left: 5%;
   vertical-align: middle;
