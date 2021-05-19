@@ -210,7 +210,7 @@ let footer = $(`
 
         <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
-            <h6 class="display">Contact Me!</h6>
+            <h6 class="display">Contact Me</h6>
             <form action="https://formsubmit.co/1ad89f57552064add2679b10be14253f" method="POST">
               <input type="hidden" name="_captcha" value="false">
               <input type="hidden" name="_next" value="https://raythx98.github.io/portfolio-website/submitted.html">
