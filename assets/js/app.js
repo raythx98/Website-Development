@@ -23,7 +23,7 @@ let header = $(`
    <li class="nav-item">   
     <label class='switch'>
       <input type='checkbox' id="checkboxtoggle" class='checkbox'>
-      <span class='slider rounded'>
+      <span class='slider rounded align-self-center'>
         <i class="fas fa-sun day"></i>
         <i class="fas fa-moon night"></i>
       </span>
