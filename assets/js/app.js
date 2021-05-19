@@ -28,15 +28,6 @@ let header = $(`
     </span>
    </a>
    </li>
-   <li class="nav-item">
-    <label class='switch vertical-align-middle'>
-      <input type='checkbox' id="checkboxtoggle" class='checkbox vertical-align-middle'>
-      <span class='slider rounded vertical-align-middle'>
-        <i class="fas fa-sun day"></i>
-        <i class="fas fa-moon night"></i>
-      </span>
-    </label>
-   </li>
 
    <div class="bike">
    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
