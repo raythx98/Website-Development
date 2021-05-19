@@ -460,13 +460,11 @@ body.darkmode .heading1, .darkmodetext.main-heading, .darkmodetext.pre-heading{
 .night{
   margin-left: 5% !important;
   margin-top: 15%;
-  margin-right: 15%;
   vertical-align: middle;
   color: white;
 }
 
 .day{
-  margin-left: 15%;
   margin-right: 5% !important;
   margin-top: 15%;
   vertical-align: middle;
