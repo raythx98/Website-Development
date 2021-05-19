@@ -824,7 +824,7 @@ body {
 }
 .submittedSubtitle {
   font-size: 25px;
-  margin-top: 1.5em;
+  margin-top: 0.5em;
   font-family: "Lato", sans-serif;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
