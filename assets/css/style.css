@@ -389,7 +389,7 @@ html {
   padding-right: 15;
   position: absolute;
   cursor: pointer;
-  top: 10;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
@@ -460,16 +460,16 @@ body.darkmode .heading1, .darkmodetext.main-heading, .darkmodetext.pre-heading{
   filter: invert(100%) !important;
 }
 .night{
-  top: 5;
   margin-left: 5% !important;
+  margin-top: 7.5%;
   vertical-align: middle;
   color: white;
 }
 
 .day{
-  top: 5;
   margin-left: 5%;
   margin-right: 5% !important;
+  margin-top: 7.5%;
   vertical-align: middle;
   color: yellow;
 }
