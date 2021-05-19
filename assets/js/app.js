@@ -21,11 +21,11 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item">   
-    <label class='switch'>
-      <input type='checkbox' id="checkboxtoggle" class='checkbox'>
+    <label class='switch align-self-center'>
+      <input type='checkbox' id="checkboxtoggle" class='checkbox align-self-center'>
       <span class='slider rounded align-self-center'>
-        <i class="fas fa-sun day"></i>
-        <i class="fas fa-moon night"></i>
+        <i class="fas fa-sun day align-self-center"></i>
+        <i class="fas fa-moon night align-self-center"></i>
       </span>
     </label>
    </li>
