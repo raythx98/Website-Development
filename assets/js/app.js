@@ -20,13 +20,14 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
-   <li class="nav-item pl-10"><a class="switch">
-    <input type='checkbox' id="checkboxtoggle" class='checkbox vertical-align-middle'>
-    <span class='slider rounded vertical-align-middle'>
-      <i class="fas fa-sun day"></i>
-      <i class="fas fa-moon night"></i>
-    </span>
-   </a>
+   <li class="nav-item">
+    <label class='switch vertical-align-middle'>
+      <input type='checkbox' id="checkboxtoggle" class='checkbox vertical-align-middle'>
+      <span class='slider rounded vertical-align-middle'>
+        <i class="fas fa-sun day"></i>
+        <i class="fas fa-moon night"></i>
+      </span>
+    </label>
    </li>
 
    <div class="bike">
