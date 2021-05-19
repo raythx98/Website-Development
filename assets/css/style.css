@@ -385,6 +385,8 @@ html {
 }
 
 .slider {
+  padding-left: 15;
+  padding-right: 15;
   position: absolute;
   cursor: pointer;
   top: 5;
