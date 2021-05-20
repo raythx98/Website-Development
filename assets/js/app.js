@@ -22,7 +22,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item">
     <label class='switch'>
-      <input type='checkbox' id="checkboxtoggle" class='checkbox dark-mode-toggle' id="dark-mode-toggle">
+      <input type='checkbox' id="checkboxtoggle" class='checkbox dark-mode-toggle'>
       <span class='slider rounded'>
         <i class="fas fa-sun day"></i>
         <i class="fas fa-moon night"></i>
