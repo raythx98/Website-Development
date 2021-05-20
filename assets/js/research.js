@@ -31,7 +31,7 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <a class="paperTitle"> ${title} </a> 
                     <div> ${authors} </div> <div class="rConferences"> ${conferences} 
                         <div class="researchY">${researchYr}</div>
                     </div>
@@ -47,7 +47,7 @@ const fillData = () => {
                             ${abstract}    
                         </div>
                     </div>
-                    <div class="d-flex" style="margin-right:5%; padding-top:5%;">
+                    <div class="d-flex" style="margin-right:5%; padding-top:2%; padding-bottom:5%;">
             
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
                             &nbsp;CITATION&nbsp;
