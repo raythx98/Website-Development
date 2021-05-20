@@ -175,7 +175,7 @@ const showCards2 = () => {
   timelinesection.forEach(
     ({ heading, image, subheading, description }) =>
     (output += `       
-      <div class="timeline" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600">
+      <div class="timeline" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500">
       <div class="timeline-content">
         <h6 class="center-align font-weight-bolder pt-1">${heading}</h6>
         <div class="row">
