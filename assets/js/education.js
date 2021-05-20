@@ -103,8 +103,8 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 
 /* Badges*/
-
-const bagdes = document.querySelector(".badges");
+/*
+const badges = document.querySelector(".badges");
 const badgesection = [
   {
     title: "Google Developer Essentials",
@@ -134,13 +134,14 @@ const showCards1 = () => {
           <div class="text-center text-muted font-weight-bolder p-2">${description}</div>
       </div>`)
   );
-  bagdes.innerHTML = output;
+  badges.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards1);
-
+*/
 
 /* Timeline Section*/
 
+/*
 const timeline = document.querySelector(".timeline");
 const timelinesection = [
   {
@@ -201,3 +202,5 @@ const showCards2 = () => {
   timeline.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards2);
+
+*/
