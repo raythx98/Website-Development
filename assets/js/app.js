@@ -267,22 +267,17 @@ $(function(){
 $(document).ready(function(){
   $('input[type="checkbox"]').click(function(){
       if($(this).prop("checked") == true){
-          console.log("Checkbox is checked.");
+        $('body').addClass('darkmode');
+        $('.text-dark').addClass('darkmodetext');
+        $('tr').addClass('bordered');
       }
       else if($(this).prop("checked") == false){
-          console.log("Checkbox is unchecked.");
+        $('body').removeClass('darkmode');
+        $('.text-dark').removeClass('darkmodetext');
+        $('tr').removeClass('bordered');
       }
   });
 });
-
-$(document).ready(function() {
-  $('input.checkbox').change(function () {
-      $('body').toggleClass('darkmode');
-      $('.text-dark').toggleClass('darkmodetext');
-      $('tr').toggleClass('bordered');
-      // $('.darkmodetext').toggleClass('text-dark');
-    });
-}); 
 
 // Navbar current page highlight
 
