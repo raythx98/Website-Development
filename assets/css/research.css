@@ -66,7 +66,7 @@ body{
 }
 
 .researchMainWrapper { 
-    margin: 50px 0 200px;
+    margin: 0px 0 0px;
     position: relative;                 
     color: var(--p-up);
 } 
@@ -700,3 +700,87 @@ body{
     animation-duration: 5s;
     transform-origin: 1009.149px 711.625px
 }
+
+@media only screen and (max-width:2381px){
+    .secHeight{
+      height: 150vh;
+    }
+  }
+  
+  @media only screen and (max-width:1920px){
+    .secHeight{
+      height: 120vh;
+    }
+  }
+  
+  @media only screen and (max-width:1340px){
+    .secHeight{
+      height: 100vh;
+    }
+  }
+  
+  @media only screen and (max-width:1280px){
+    .secHeight{
+      height: 90vh;
+    }
+  }
+  
+  @media only screen and (max-width:1080px){
+    .secHeight{
+      height: 80vh;
+    }
+  }
+  
+  @media only screen and (max-width:992px){
+    .secHeight{
+      height: 70vh;
+    }
+  }
+  
+  @media only screen and (max-width:959px){
+    .secHeight{
+      height: 55vh;
+    }
+  }
+  
+  @media only screen and (max-width:860px){
+    .secHeight{
+      height: 45vh;
+    }
+  }
+  
+  @media only screen and (max-width:780px){
+    .secHeight{
+      height: 45vh;
+    }
+  }
+  
+  @media only screen and (max-width:768px){
+    .secHeight{
+      height: 90vh;
+    }
+  }
+  
+  @media only screen and (max-width:580px){
+    .secHeight{
+      height: 80vh;
+    }
+  }
+  
+  @media only screen and (max-width:450px){
+    .secHeight{
+      height: 75vh;
+    }
+  }
+  
+  @media only screen and (max-width:350px){
+    .secHeight{
+      height: 65vh;
+    }
+  }
+  
+  @media only screen and (max-width:270px){
+    .secHeight{
+      height: 60vh;
+    }
+  }
