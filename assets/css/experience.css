@@ -623,7 +623,7 @@ ul ol{
   }
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
   .secHeight{
     height: 70vh;
   }
