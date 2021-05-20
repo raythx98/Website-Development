@@ -416,23 +416,29 @@ html[data-theme = 'dark']
 
 @media only screen and (max-width:767px){
   .secHeight{
-    height: 60vh;
+    height: 70vh;
   }
 }
 
 @media only screen and (max-width:580px){
   .secHeight{
-    height: 55vh;
+    height: 60vh;
   }
 }
 
 @media only screen and (max-width:450px){
   .secHeight{
-    height: 45vh;
+    height: 55vh;
   }
 }
 
 @media only screen and (max-width:350px){
+  .secHeight{
+    height: 45vh;
+  }
+}
+
+@media only screen and (max-width:300px){
   .secHeight{
     height: 40vh;
   }
