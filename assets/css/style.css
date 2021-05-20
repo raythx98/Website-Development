@@ -118,20 +118,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 999999;
-}
-
-.loader-container .darkmode {
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #fff;
+  background-color: inherit;
   height: 100%;
   width: 100%;
   display: flex;
