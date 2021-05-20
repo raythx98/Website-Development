@@ -290,7 +290,7 @@ const enableDarkMode = () => {
     // 2. Update darkMode in localStorage 
     localStorage.setItem('darkMode', null);
   }
-darkModeToggle.addEventListener("DOMContentLoaded", function() { 
+document.addEventListener("DOMContentLoaded", function() { 
   darkModeToggle.addEventListener('click', () => {
       console.log('test');
   })
