@@ -269,6 +269,9 @@ let darkMode = localStorage.getItem('darkMode');
 if (darkMode === 'enabled') {
   $("#checkboxtoggle").prop("checked", true);
   console.log('HE GOT DARK');
+  $('body').addClass('darkmode');
+  $('.text-dark').addClass('darkmodetext');
+  $('tr').addClass('bordered');
 }
 
 $(document).ready(function(){
@@ -283,7 +286,7 @@ $(document).ready(function(){
         $('body').removeClass('darkmode');
         $('.text-dark').removeClass('darkmodetext');
         $('tr').removeClass('bordered');
-        document.body.classList.remove('darkmode');
+        localStorage.setItem('darkMode', null);
       }
   });
 });
