@@ -866,16 +866,9 @@ SVG ANIMATIONS PROJECT PAGE
       height: 55vh;
     }
   }
-  
-  @media only screen and (max-width:767px){
+  @media only screen and (min-width:766px) and (max-width:767px){
     .secHeight{
       height: 110vh;
-    }
-  }
-
-  @media only screen and (max-width:766px){
-    .secHeight{
-      height: 90vh;
     }
   }
   
