@@ -81,17 +81,15 @@ const showCards = () => {
     (output += `        
         <div class="col-6 col-md-3 col-sm-4 column" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="500" >  
             <div class="card mb-3 mx-auto">
-            <a href="${moocLink}" target="_blank">
                <div class="content">
-
+                  <a href="${moocLink}" target="_blank">
                     <div class="content-overlay"></div>
                       <img src=${cardImage} class="card-img-top content-image">     
                     <div class="content-details fadeIn-bottom">
                       <a><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: white;"></i></a>                                   
                     </div>
-
+                  </a>
                 </div>
-                </a>
                 <div class="card-body">
                     <h6 class="mt-0 py-2 text-center font-weight-bold mooc-title" style="font-size:12px;">${title}</h6>
                 </div>
