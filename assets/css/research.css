@@ -707,49 +707,49 @@ body{
     }
   }
   
-  @media only screen and (max-width:1920px){
+  @media only screen and (min-width:1341px) and (max-width:1920px){
     .secHeight{
       height: 70vh;
     }
   }
   
-  @media only screen and (max-width:1340px){
+  @media only screen and (min-width:1281px) and (max-width:1340px){
     .secHeight{
       height: 70vh;
     }
   }
   
-  @media only screen and (max-width:1280px){
+  @media only screen and (min-width:1081px) and (max-width:1280px){
     .secHeight{
       height: 60vh;
     }
   }
   
-  @media only screen and (max-width:1080px){
+  @media only screen and (min-width:992px) and (max-width:1080px){
     .secHeight{
       height: 55vh;
     }
   }
   
-  @media only screen and (max-width:992px){
+  @media only screen and (min-width:960px) and (max-width:991px){
     .secHeight{
       height: 55vh;
     }
   }
   
-  @media only screen and (max-width:959px){
+  @media only screen and (min-width:861px) and (max-width:959px){
     .secHeight{
       height: 55vh;
     }
   }
   
-  @media only screen and (max-width:860px){
+  @media only screen and (min-width:781px) and (max-width:860px){
     .secHeight{
       height: 55vh;
     }
   }
   
-  @media only screen and (max-width:780px){
+  @media only screen and (min-width:768px) and (max-width:780px){
     .secHeight{
       height: 55vh;
     }
@@ -781,6 +781,6 @@ body{
   
   @media only screen and (max-width:270px){
     .secHeight{
-      height: 80vh;
+      height: 70vh;
     }
   }
