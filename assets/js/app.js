@@ -290,10 +290,11 @@ const enableDarkMode = () => {
     // 2. Update darkMode in localStorage 
     localStorage.setItem('darkMode', null);
   }
-
-darkModeToggle.addEventListener('click', () => {
-    console.log('test');
-})
+darkModeToggle.addEventListener("DOMContentLoaded", function() { 
+  darkModeToggle.addEventListener('click', () => {
+      console.log('test');
+  })
+});
 
 // Navbar current page highlight
 
