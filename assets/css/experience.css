@@ -589,11 +589,17 @@ ul ol{
 
 @media only screen and (max-width:992px){
   .secHeight{
-    height: 40vh;
+    height: 50vh;
   }
 }
 
-@media only screen and (max-width:960px){
+@media only screen and (max-width:959px){
+  .secHeight{
+    height: 35vh;
+  }
+}
+
+@media only screen and (max-width:860px){
   .secHeight{
     height: 25vh;
   }
@@ -605,7 +611,7 @@ ul ol{
   }
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:767px){
   .secHeight{
     height: 70vh;
   }
