@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", workShowCards2);
 
 
 // Volunteership Cards
-
+/*
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
@@ -221,3 +221,4 @@ const showCards3 = () => {
   mentorshipcards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
+*/
