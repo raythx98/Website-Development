@@ -414,15 +414,15 @@ html[data-theme = 'dark']
   }
 }
 
-@media only screen and (min-width:767px) and (max-width:767px){
+@media only screen and (max-width:766px){
   .secHeight{
-    height: 90vh;
+    height: 70vh;
   }
 }
 
 @media only screen and (max-width:766px){
   .secHeight{
-    height: 40vh;
+    height: 70vh;
   }
 }
 
