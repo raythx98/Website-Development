@@ -272,6 +272,7 @@ $(document).ready(function(){
     $('body').addClass('darkmode');
     $('.text-dark').addClass('darkmodetext');
     $('tr').addClass('bordered');
+    $('.loader-container').addClass('darkmode');
   }
 });
 
