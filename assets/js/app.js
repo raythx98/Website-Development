@@ -262,6 +262,8 @@ $(function(){
 
 });
 
+// Dark mode
+
 $(document).ready(function() {
   $('input.checkbox').change(function () {
       $('body').toggleClass('darkmode');
@@ -270,6 +272,28 @@ $(document).ready(function() {
       // $('.darkmodetext').toggleClass('text-dark');
     });
 }); 
+
+// let darkMode = localStorage.getItem('darkMode');
+
+const darkModeToggle = document.querySelector('.dark-mode-toggle');
+
+const enableDarkMode = () => {
+    // 1. Add the class to the body
+    document.body.classList.add('darkmode');
+    // 2. Update darkMode in localStorage
+    localStorage.setItem('darkMode', 'enabled');
+  }
+  
+  const disableDarkMode = () => {
+    // 1. Remove the class from the body
+    document.body.classList.remove('darkmode');
+    // 2. Update darkMode in localStorage 
+    localStorage.setItem('darkMode', null);
+  }
+
+darkModeToggle.addEventListener('click', () => {
+    console.log('test');
+})
 
 // Navbar current page highlight
 
