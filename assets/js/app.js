@@ -264,17 +264,26 @@ $(function(){
 
 // Dark mode
 
+let darkMode = localStorage.getItem('darkMode');
+
+if (darkMode === 'enabled') {
+  $("#checkboxtoggle").prop("checked", true);
+  console.log('HE GOT DARK');
+}
+
 $(document).ready(function(){
   $('input[type="checkbox"]').click(function(){
       if($(this).prop("checked") == true){
         $('body').addClass('darkmode');
         $('.text-dark').addClass('darkmodetext');
         $('tr').addClass('bordered');
+        localStorage.setItem('darkMode', 'enabled');
       }
       else if($(this).prop("checked") == false){
         $('body').removeClass('darkmode');
         $('.text-dark').removeClass('darkmodetext');
         $('tr').removeClass('bordered');
+        document.body.classList.remove('darkmode');
       }
   });
 });
