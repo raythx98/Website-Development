@@ -47,7 +47,7 @@ const fillData = () => {
                             ${abstract}    
                         </div>
                     </div>
-                    <div class="d-flex" style="margin-right:5%; padding-top:2%; padding-bottom:5%;">
+                    <div class="d-flex" style="margin-right:5%; padding-top:2%;">
             
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
                             &nbsp;CITATION&nbsp;
