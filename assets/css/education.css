@@ -116,7 +116,7 @@ html[data-theme = 'dark']
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 765px) {
 
     .edSection{
         margin-top: 400px;
@@ -414,7 +414,7 @@ html[data-theme = 'dark']
   }
 }
 
-@media only screen and (max-width:766px){
+@media only screen and (max-width:767px){
   .secHeight{
     height: 70vh;
   }
