@@ -83,7 +83,9 @@ const showCards = () => {
             <div class="card mb-3 mx-auto">
                <div class="content">
                   <div class="content-overlay"></div>
-                    <img src=${cardImage} class="card-img-top content-image" href="${moocLink}">     
+                    <a href="${moocLink}">
+                      <img src=${cardImage} class="card-img-top content-image">     
+                    </a>
                   <div class="content-details fadeIn-bottom">
                     <a target="_blank"><i class="fa fa-info-circle fa-2x" aria-hidden="true" style="color: white;"></i></a>                                   
                   </div>
