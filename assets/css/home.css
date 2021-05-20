@@ -480,12 +480,12 @@ a:hover {
 
 @media only screen and (max-width:350px){
   .text{
-    margin-top:5rem;
+    margin-top:4rem;
   }
 }
 
 @media only screen and (max-width:270px){
   .text{
-    margin-top:5rem;
+    margin-top:4rem;
   }
 }
