@@ -32,6 +32,7 @@ const moocscards = [
 
 ];
 
+/*
 const experience = [
   {
     img: "assets/images/education-page/c1.png"
@@ -73,6 +74,7 @@ function showExperience() {
     },
     3000);
 }
+*/
 
 const showCards = () => {
   let output = "";
