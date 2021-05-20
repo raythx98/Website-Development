@@ -67,7 +67,6 @@ document.addEventListener("DOMContentLoaded", fillData);
 
 $(document).ready(function(){
   if (localStorage.getItem('darkMode') === 'enabled') {
-      console.log("setting")
     $("#Layer_13").css({"fill": "#070D2D"});
   }
 });
