@@ -31,19 +31,19 @@ html[data-theme = 'dark']
     position: absolute;
     text-align: center;
     /* padding-right: 1.2rem; */
-    padding-top: 10rem;
     z-index: 3;
+    padding-top: 5rem;
   }
   .dropdown2{
     position: absolute;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 15rem;
     z-index: 3;
   }
   .godown{
     position: absolute;
     z-index: 2;
-    padding-top: 10rem;
+    padding-top: 20rem;
   }
 }
 .sect
