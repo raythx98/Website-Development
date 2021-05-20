@@ -50,7 +50,7 @@ const fillData = () => {
                     <div class="d-flex" style="margin-right:5%;">
             
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITATION&nbsp;
+                            &nbsp;CITATION&nbsp;
                         </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
