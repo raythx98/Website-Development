@@ -587,7 +587,19 @@ ul ol{
   }
 }
 
-@media only screen and (max-width:991px){
+@media only screen and (max-width:1280px){
+  .secHeight{
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width:1080px){
+  .secHeight{
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width:992px){
   .secHeight{
     height: 50vh;
   }
