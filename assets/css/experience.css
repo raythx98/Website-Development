@@ -577,23 +577,23 @@ ul ol{
 
 @media only screen and (max-width:1920px){
   .secHeight{
-    height: 90vh;
+    height: 80vh;
   }
 }
 
 @media only screen and (max-width:1340px){
   .secHeight{
-    height: 80vh;
+    height: 60vh;
   }
 }
 
 @media only screen and (max-width:780px){
   .secHeight{
-    height: 70vh;
+    height: 40vh;
   }
 }
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:766px){
   .secHeight{
     height: 70vh;
   }
