@@ -22,7 +22,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item">
     <label class='switch'>
-      <input type='checkbox' id="checkboxtoggle" class='checkbox dark-mode-toggle'>
+      <input type='checkbox' id="checkboxtoggle" class='checkbox'>
       <span class='slider rounded'>
         <i class="fas fa-sun day"></i>
         <i class="fas fa-moon night"></i>
@@ -275,7 +275,7 @@ $(document).ready(function() {
 
 // let darkMode = localStorage.getItem('darkMode');
 
-const darkModeToggle = document.querySelector('.dark-mode-toggle');
+const darkModeToggle = document.querySelector('.switch');
 
 const enableDarkMode = () => {
     // 1. Add the class to the body
