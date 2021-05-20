@@ -447,3 +447,33 @@ body{
 a:hover {
   color: transparent;
 }
+
+@media only screen and (max-height:780px){
+  .text{
+    margin-top:1rem;
+  }
+}
+
+@media only screen and (max-width:700px){
+  .text{
+    margin-top:2rem;
+  }
+}
+
+@media only screen and (max-width:580px){
+  .text{
+    margin-top:3rem;
+  }
+}
+
+@media only screen and (max-width:350px){
+  .text{
+    margin-top:4rem;
+  }
+}
+
+@media only screen and (max-width:270px){
+  .text{
+    margin-top:5rem;
+  }
+}
