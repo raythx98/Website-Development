@@ -568,3 +568,45 @@ ul ol{
     transform: skew(-12deg) rotate(-6deg);
   }
 }
+
+@media only screen and (max-width:2381px){
+  .secHeight{
+    height: 95vh;
+  }
+}
+
+@media only screen and (max-width:1340px){
+  .secHeight{
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width:780px){
+  .secHeight{
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width:700px){
+  .secHeight{
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width:580px){
+  .secHeight{
+    height: 70vh;
+  }
+}
+
+@media only screen and (max-width:350px){
+  .secHeight{
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width:270px){
+  .secHeight{
+    height: 60vh;
+  }
+}
