@@ -601,6 +601,12 @@ ul ol{
 
 @media only screen and (max-width:580px){
   .secHeight{
+    height: 55vh;
+  }
+}
+
+@media only screen and (max-width:580px){
+  .secHeight{
     height: 50vh;
   }
 }
