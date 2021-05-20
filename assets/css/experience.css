@@ -593,7 +593,7 @@ ul ol{
   }
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
   .secHeight{
     height: 60vh;
   }
@@ -605,21 +605,15 @@ ul ol{
   }
 }
 
-@media only screen and (max-width:580px){
+@media only screen and (max-width:450px){
   .secHeight{
-    height: 50vh;
-  }
-}
-
-@media only screen and (max-width:420px){
-  .secHeight{
-    height: 45vh;
+    height: 55vh;
   }
 }
 
 @media only screen and (max-width:350px){
   .secHeight{
-    height: 40vh;
+    height: 45vh;
   }
 }
 
