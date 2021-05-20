@@ -267,8 +267,8 @@ $(function(){
 let darkMode = localStorage.getItem('darkMode');
 
 if (darkMode === 'enabled') {
+  document.getElementById("checkbox").checked = true;
   $("#checkboxtoggle").prop("checked", true);
-  console.log('HE GOT DARK');
   $('body').addClass('darkmode');
   $('.text-dark').addClass('darkmodetext');
   $('tr').addClass('bordered');
