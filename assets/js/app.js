@@ -235,6 +235,7 @@ let footer = $(`
 $(function () {
     let bodyElement = $(`body`);
     bodyElement.prepend(header);
+    bodyElement.append(footer);
   
 //toggler hamburger functions
     const menuBtn = document.querySelector('.navbar-toggler');
