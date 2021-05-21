@@ -432,7 +432,7 @@ input:checked + .slider:before {
 }
 
 body.darkmode{
-  background-color: #444444 !important;
+  background-color: #363636 !important;
   color: white !important;
 }
 
