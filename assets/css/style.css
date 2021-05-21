@@ -442,6 +442,7 @@ body.darkmode{
 
 .addi {
   text-shadow: 2px 2px #363636;
+  -webkit-text-stroke: 1px black;
 }
 
 body.darkmode tr{
