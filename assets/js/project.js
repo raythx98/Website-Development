@@ -91,7 +91,7 @@ const showCards = () => {
         <div class="data">
           <div class="content">
             <div class="title-div">
-              <h1 class="title"><a class="clamp2">${title}</a></h1>
+              <h1 class="title"><a class="clamp1">${title}</a></h1>
             </div>
           </div>
           <div class="subcontent">
