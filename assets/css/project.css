@@ -489,14 +489,14 @@ ul{
 .skill-card .data {
   color: #fff;
   background-color: rgba(0,0,0,0.55);
-  transform: translateY(calc(70px + 4em));
+  transform: translateY(calc(50px + 4em));
   padding: 5px;
 }
 
 @media (min-width: 960px) {
   .skill-card .data {
     color: #fff;
-    transform: translateY(calc(100px + 4em));
+    transform: translateY(calc(60px + 4em));
     padding: 5px;
   }
 }
