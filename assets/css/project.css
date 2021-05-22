@@ -234,7 +234,7 @@ a:hover {
   .skill-card .data {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
-    transform: translateY(calc(50px + 4em));
+    transform: translateY(calc(47px + 4em));
     padding: 5px;
   }
 
