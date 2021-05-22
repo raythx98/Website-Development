@@ -444,16 +444,12 @@ ul{
 .skill-card .data {
   transform: translateY(calc(90px + 4em));
   }
-  
-  .social-icon svg {
-    margin-top: 20px;
-  }
 }
   
 .skill-card .data {
   color: #fff;
   background-color: rgba(0,0,0,0.55);
-  transform: translateY(calc(50px + 4em));
+  transform: translateY(calc(45px + 4em));
   padding: 5px;
 }
 
