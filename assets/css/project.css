@@ -146,6 +146,7 @@ a:hover {
 
 .clamp1{
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .clamp8{
