@@ -88,8 +88,6 @@ const showCards = () => {
       (output += `       
     <div class="column skill-card card">
       <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
-        <div class="header">
-        </div>
         <div class="data">
           <div class="content">
           <div class="title-div">

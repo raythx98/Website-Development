@@ -320,7 +320,6 @@ ul{
 
 @media (min-width:320px) and (max-width:321px){
   .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
@@ -333,7 +332,6 @@ ul{
 
 @media (min-width:360px) and (max-width:361px){
   .card .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
@@ -345,7 +343,6 @@ ul{
 
 @media (min-width:374px) and (max-width:375px){
   .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
@@ -359,7 +356,6 @@ ul{
 
 @media (min-width:410px) and (max-width:411px){
   .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
@@ -371,7 +367,6 @@ ul{
 }
 @media (min-width:413px) and (max-width:414px){
   .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
@@ -384,7 +379,6 @@ ul{
 
 @media (min-width:535px) and (max-width:540px){
   .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
@@ -410,7 +404,6 @@ ul{
 
 @media only screen and (min-height:768px){
   .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
@@ -428,7 +421,6 @@ ul{
 
 @media only screen and (max-width: 280px) {
   .menu-content{
-    margin-top: -4.5rem;
     margin-right: 20px;
   }
 
