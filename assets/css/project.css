@@ -169,12 +169,12 @@ a:hover {
 
 @media(min-width: 1px){
   .card .title{
-    font-size: 0.65em;
+    font-size: 1em;
   }
 
 
   .card .subtitle{
-    font-size: 0.45em;
+    font-size: 0.7em;
   }
 
   .card .data{
@@ -189,17 +189,17 @@ a:hover {
   }
   
   .menu-content{
-    padding-top: 0.5em;
+    padding-top: 1em;
   }
 }
 
 @media(min-width: 365px){
   .card .title{
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .card .subtitle{
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 
   .card .data{
@@ -214,7 +214,7 @@ a:hover {
   }
 
   .menu-content{
-    padding-top: 1em;
+    padding-top: 1.2em;
   }
 }
 
@@ -237,6 +237,10 @@ a:hover {
     transform: translateY(calc(55px + 4em));
     padding: 5px;
   }
+
+  .menu-content{
+    padding-top: 1.5em;
+  }
 }
 
 @media(min-width: 500px){
@@ -257,6 +261,10 @@ a:hover {
     background-color: rgba(0,0,0,0.55);
     transform: translateY(calc(55px + 4em));
     padding: 5px;
+  }
+
+  .menu-content{
+    padding-top: 1.5em;
   }
 }
 
@@ -367,7 +375,6 @@ ul{
 }
 
 .menu-content{
-  padding-top: 1.5em;
   margin-right: 10px;
   line-height: 0;
   vertical-align: bottom;
