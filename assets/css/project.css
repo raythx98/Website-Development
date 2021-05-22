@@ -178,13 +178,13 @@ a:hover {
   }
 
   .card .data{
-    height: 40%;
+    height: 47%;
   }
 
   .skill-card .data {
     color: #fff;
     background-color: rgba(0,0,0,0.55);
-    transform: translateY(calc(55px + 4em));
+    transform: translateY(calc(55px + 3em));
     padding: 5px;
   }
   
@@ -203,13 +203,13 @@ a:hover {
   }
 
   .card .data{
-    height: 50%;
+    height: 52%;
   }
 
   .skill-card .data {
     color: #fff;
     background-color: rgba(0,0,0,0.55);
-    transform: translateY(calc(55px + 4em));
+    transform: translateY(calc(35px + 4em));
     padding: 5px;
   }
 
@@ -234,7 +234,7 @@ a:hover {
   .skill-card .data {
     color: #fff;
     background-color: rgba(0,0,0,0.55);
-    transform: translateY(calc(55px + 4em));
+    transform: translateY(calc(53px + 4em));
     padding: 5px;
   }
 
@@ -259,7 +259,7 @@ a:hover {
   .skill-card .data {
     color: #fff;
     background-color: rgba(0,0,0,0.55);
-    transform: translateY(calc(55px + 4em));
+    transform: translateY(calc(50px + 4em));
     padding: 5px;
   }
 
