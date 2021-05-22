@@ -187,6 +187,10 @@ a:hover {
     transform: translateY(calc(55px + 4em));
     padding: 5px;
   }
+  
+  .menu-content{
+    padding-top: 0.5em;
+  }
 }
 
 @media(min-width: 365px){
@@ -207,6 +211,10 @@ a:hover {
     background-color: rgba(0,0,0,0.55);
     transform: translateY(calc(55px + 4em));
     padding: 5px;
+  }
+
+  .menu-content{
+    padding-top: 1em;
   }
 }
 
