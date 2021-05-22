@@ -153,6 +153,13 @@ a:hover {
   padding: 1;
 }
 
+.clamp1{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
 .clamp8{
   display: -webkit-box;
   -webkit-line-clamp: 2;

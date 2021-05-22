@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Portfolio Website",
     cardImage: "assets/images/project-page/portfolio.png",
-    description: "Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.Portfolio Website built using React Native, HTML and CSS.",
+    description: "Portfolio Website built using JavaScript, HTML and CSS.",
     tagimg: "yahoo.com.sg",
     Previewlink: "https://raythx98.github.io/portfolio-website/",
     Githublink: "https://github.com/raythx98/portfolio-website",
