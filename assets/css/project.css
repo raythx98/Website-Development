@@ -124,10 +124,6 @@ a:hover {
   background: rgba(0,0,0,0.55);
 }
 
-.card .data{
-  height: 60%;
-}
-
 .card .data .content {
   padding-left: 1em;
   padding-right: 1em;
@@ -157,27 +153,39 @@ a:hover {
   padding: 1;
 }
 
+.clamp1{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.clamp8{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
 @media(min-width: 1px){
   .card .title{
     font-size: 0.65em;
   }
 
-  .clamp1{
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
-  }
 
   .card .subtitle{
     font-size: 0.45em;
   }
 
-  .clamp8{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+  .card .data{
+    height: 40%;
+  }
+
+  .skill-card .data {
+    color: #fff;
+    background-color: rgba(0,0,0,0.55);
+    transform: translateY(calc(55px + 4em));
+    padding: 5px;
   }
 }
 
@@ -186,22 +194,19 @@ a:hover {
     font-size: 1em;
   }
 
-  .clamp1{
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
-  }
-
   .card .subtitle{
     font-size: 0.6em;
   }
 
-  .clamp8{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+  .card .data{
+    height: 50%;
+  }
+
+  .skill-card .data {
+    color: #fff;
+    background-color: rgba(0,0,0,0.55);
+    transform: translateY(calc(55px + 4em));
+    padding: 5px;
   }
 }
 
@@ -210,22 +215,19 @@ a:hover {
     font-size: 1.3em;
   }
 
-  .clamp1{
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
-  }
-
   .card .subtitle{
     font-size: 0.9em;
   }
 
-  .clamp8{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+  .card .data{
+    height: 60%;
+  }
+
+  .skill-card .data {
+    color: #fff;
+    background-color: rgba(0,0,0,0.55);
+    transform: translateY(calc(55px + 4em));
+    padding: 5px;
   }
 }
 
@@ -234,22 +236,19 @@ a:hover {
     font-size: 1.5em;
   }
 
-  .clamp1{
-    display: -webkit-box;
-    -webkit-line-clamp: 1;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
-  }
-
   .card .subtitle{
     font-size: 1.0em;
   }
 
-  .clamp8{
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;  
-    overflow: hidden;
+  .card .data{
+    height: 62%;
+  }
+
+  .skill-card .data {
+    color: #fff;
+    background-color: rgba(0,0,0,0.55);
+    transform: translateY(calc(55px + 4em));
+    padding: 5px;
   }
 }
 
@@ -410,28 +409,6 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
-  }
-}
-
-
-@media (max-width: 377px) {
-.skill-card .data {
-  transform: translateY(calc(90px + 4em));
-  }
-}
-  
-.skill-card .data {
-  color: #fff;
-  background-color: rgba(0,0,0,0.55);
-  transform: translateY(calc(45px + 4em));
-  padding: 5px;
-}
-
-@media (min-width: 960px) {
-  .skill-card .data {
-    color: #fff;
-    transform: translateY(calc(55px + 4em));
-    padding: 5px;
   }
 }
 
