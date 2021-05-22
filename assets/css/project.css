@@ -292,7 +292,7 @@ ul{
 .menu-content{
   margin-right: 10px;
   line-height: 0;
-  bottom: 0;
+  vertical-align: bottom;
 }
 .social-icon svg:hover {
   fill: #fff;
