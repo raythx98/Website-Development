@@ -147,7 +147,7 @@ a:hover {
 
 .card .title-div{
   width: 100%;
-  height: 35%;
+  max-height: 92;
   margin: 0;
 }
 
