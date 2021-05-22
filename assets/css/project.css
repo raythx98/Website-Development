@@ -183,7 +183,7 @@ a:hover {
 
   .skill-card .data {
     color: #fff;
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0,0,0,0.7);
     transform: translateY(calc(50px + 3em));
     padding: 5px;
   }
@@ -208,7 +208,7 @@ a:hover {
 
   .skill-card .data {
     color: #fff;
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0,0,0,0.7);
     transform: translateY(calc(35px + 4em));
     padding: 5px;
   }
@@ -233,7 +233,7 @@ a:hover {
 
   .skill-card .data {
     color: #fff;
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0,0,0,0.7);
     transform: translateY(calc(53px + 4em));
     padding: 5px;
   }
@@ -258,7 +258,7 @@ a:hover {
 
   .skill-card .data {
     color: #fff;
-    background-color: rgba(0,0,0,0.55);
+    background-color: rgba(0,0,0,0.7);
     transform: translateY(calc(50px + 4em));
     padding: 5px;
   }
