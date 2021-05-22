@@ -172,11 +172,6 @@ a:hover {
     font-size: 1em;
   }
 
-
-  .card .subtitle{
-    font-size: 0.7em;
-  }
-
   .card .data{
     height: 50%;
   }
@@ -196,10 +191,6 @@ a:hover {
 @media(min-width: 365px){
   .card .title{
     font-size: 1.2em;
-  }
-
-  .card .subtitle{
-    font-size: 0.8em;
   }
 
   .card .data{
@@ -223,10 +214,6 @@ a:hover {
     font-size: 1.3em;
   }
 
-  .card .subtitle{
-    font-size: 0.9em;
-  }
-
   .card .data{
     height: 58%;
   }
@@ -246,10 +233,6 @@ a:hover {
 @media(min-width: 500px){
   .card .title{
     font-size: 1.5em;
-  }
-
-  .card .subtitle{
-    font-size: 1.0em;
   }
 
   .card .data{
