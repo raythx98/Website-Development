@@ -124,11 +124,8 @@ a:hover {
   background: rgba(0,0,0,0.55);
 }
 
-@media(min-width: 60rem)
-{
-  .card .data{
-    height: 100%;
-  }
+.card .data{
+  height: 100%;
 }
 
 .card .data .content {
