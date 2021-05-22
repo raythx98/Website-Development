@@ -225,7 +225,7 @@ a:hover {
 }
 
 .card input[type="checkbox"]:checked + .menu-content {
-  transform: translateY(-60px);
+  transform: translateY(-100px);
 }
 
 input[type="text"]{
