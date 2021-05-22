@@ -157,14 +157,14 @@ a:hover {
   padding: 1;
 }
 
-@media(min-width: 365px){
+@media(min-width: 1px){
   .card .title{
     font-size: 0.65em;
   }
 
   .clamp1{
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;  
     overflow: hidden;
   }
@@ -175,7 +175,7 @@ a:hover {
 
   .clamp8{
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;  
     overflow: hidden;
   }
@@ -188,7 +188,7 @@ a:hover {
 
   .clamp1{
     display: -webkit-box;
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;  
     overflow: hidden;
   }
@@ -199,7 +199,7 @@ a:hover {
 
   .clamp8{
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;  
     overflow: hidden;
   }
@@ -223,7 +223,7 @@ a:hover {
 
   .clamp8{
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;  
     overflow: hidden;
   }
