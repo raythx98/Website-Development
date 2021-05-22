@@ -172,31 +172,39 @@ a:hover {
 }
 
 .card .title {
-  font-size: 0.65em;
+  font-size: 0.8em;
 }
 
-@media(min-width: 411px)
-{
-  .card .title{
-    font-size: 0.8em;
-  }
+.card .subtitle {
+  font-size: 6em;
 }
 
 @media(min-width: 365px){
   .card .title{
     font-size: 1em;
   }
+
+  .card .subtitle {
+    font-size: 0.8em;
+  }
 }
 
 @media(min-width: 425px){
   .card .title{
-    font-size: 1.3em;
+    font-size: 1.1em;
+  }
+  .card .subtitle {
+    font-size: 0.9em;
   }
 }
 
 @media(min-width: 554px){
   .card .title{
-    font-size: 1.5em;
+    font-size: 1.1em;
+  }
+
+  .card .subtitle {
+    font-size: 0.9em;
   }
 }
 
@@ -204,6 +212,10 @@ a:hover {
 {
   .card .title {
     font-size: 1.2em;
+  }
+
+  .card .subtitle {
+    font-size: 1em;
   }
 }
 
@@ -355,10 +367,6 @@ ul{
   .card .title-div{
     font-size: 3rem;
   }
-
-  .card .subtitle-div{
-    font-size: 2.5rem;
-  }
 }
 
 @media (min-width:360px) and (max-width:361px){
@@ -368,10 +376,6 @@ ul{
 
   .card .title-div{
     font-size: 3rem;
-  }
-
-  .card .subtitle-div{
-    font-size: 2.5rem;
   }
 }
 
@@ -384,11 +388,6 @@ ul{
     font-size: 2rem;
   }
 
-  .card .subtitle-div{
-    font-size: 1.6rem;
-  }
-}
-
 
 @media (min-width:410px) and (max-width:411px){
   .menu-content{
@@ -398,11 +397,8 @@ ul{
   .card .title-div{
     font-size: 2rem;
   }
-
-  .card .subtitle-div{
-    font-size: 1.6rem;
-  }
 }
+
 @media (min-width:413px) and (max-width:414px){
   .menu-content{
     margin-right: 20px;
@@ -410,10 +406,6 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
-  }
-
-  .card .subtitle-div{
-    font-size: 1.6rem;
   }
 }
 
@@ -424,10 +416,6 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
-  }
-
-  .card .subtitle-div{
-    font-size: 1.6rem;
   }
 }
 
@@ -440,10 +428,6 @@ ul{
   .card .title-div{
     font-size: 2rem;
   }
-
-  .card .subtitle-div{
-    font-size: 1.6rem;
-  }
 }
 
 
@@ -454,10 +438,6 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
-  }
-
-  .card .subtitle-div{
-    font-size: 1.6rem;
   }
 
   .skill-card {
@@ -475,10 +455,6 @@ ul{
   .card .title-div{
     font-size: 2rem;
   }
-
-  .card .subtitle-div{
-    font-size: 1.6rem;
-  }
 }
 
 
@@ -491,12 +467,13 @@ ul{
       margin-top: 20px;
     }
   }
-  @media (min-width: 960px) {
-    .skill-card .data {
-      color: #fff;
-      transform: translateY(calc(80px + 8em));
-      padding: 5px;
-    }
+  
+@media (min-width: 960px) {
+  .skill-card .data {
+    color: #fff;
+    transform: translateY(calc(80px + 8em));
+    padding: 5px;
+  }
 }
 .main{
   display:flex;
@@ -519,8 +496,6 @@ ul{
       flex-direction: column-reverse;
   }
 }
-
-
 
 /*
 ----------------------------
