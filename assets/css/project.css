@@ -144,20 +144,6 @@ a:hover {
   z-index: 1;
 }
 
-.clamp1{
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
-}
-
-.clamp8{
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
-}
-
 .card .title-div{
   width: 100%;
   height: 35%;
@@ -194,16 +180,27 @@ a:hover {
   }
 }
 
-@media(min-width: 554px){
+@media(min-width: 500px){
   .card .title{
     font-size: 1.5em;
   }
-}
 
-@media(min-width: 60rem)
-{
-  .card .title {
-    font-size: 1.2em;
+  .clamp1{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+
+  .card .subtitle{
+    font-size: 1.5em;
+  }
+
+  .clamp8{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
   }
 }
 
