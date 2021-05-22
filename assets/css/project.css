@@ -134,11 +134,24 @@ a:hover {
   z-index: 1;
 }
 
+.card .data .subcontent {
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
 
 .card .title-div{
   width: 100%;
   height: 35%;
   margin: 0;
+}
+
+.card .subtitle-div{
+  width: 100%;
+  height: 35%;
+  margin: 0;
+  padding: 1;
 }
 
 .card .title {
@@ -324,6 +337,10 @@ ul{
   .card .title-div{
     font-size: 3rem;
   }
+
+  .card .subtitle-div{
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width:360px) and (max-width:361px){
@@ -334,6 +351,10 @@ ul{
   .card .title-div{
     font-size: 3rem;
   }
+
+  .card .subtitle-div{
+    font-size: 2.5rem;
+  }
 }
 
 @media (min-width:374px) and (max-width:375px){
@@ -343,6 +364,10 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
+  }
+
+  .card .subtitle-div{
+    font-size: 1.6rem;
   }
 }
 
@@ -355,6 +380,10 @@ ul{
   .card .title-div{
     font-size: 2rem;
   }
+
+  .card .subtitle-div{
+    font-size: 1.6rem;
+  }
 }
 @media (min-width:413px) and (max-width:414px){
   .menu-content{
@@ -363,6 +392,10 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
+  }
+
+  .card .subtitle-div{
+    font-size: 1.6rem;
   }
 }
 
@@ -373,6 +406,10 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
+  }
+
+  .card .subtitle-div{
+    font-size: 1.6rem;
   }
 }
 
@@ -385,6 +422,10 @@ ul{
   .card .title-div{
     font-size: 2rem;
   }
+
+  .card .subtitle-div{
+    font-size: 1.6rem;
+  }
 }
 
 
@@ -396,6 +437,11 @@ ul{
   .card .title-div{
     font-size: 2rem;
   }
+
+  .card .subtitle-div{
+    font-size: 1.6rem;
+  }
+
   .skill-card {
     width: 450px;
     border: 0;
@@ -410,6 +456,10 @@ ul{
 
   .card .title-div{
     font-size: 2rem;
+  }
+
+  .card .subtitle-div{
+    font-size: 1.6rem;
   }
 }
 
