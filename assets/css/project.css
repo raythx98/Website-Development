@@ -151,6 +151,12 @@ a:hover {
   overflow: hidden;
 }
 
+.clamp8{
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
 
 .card .title-div{
   width: 100%;
