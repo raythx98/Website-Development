@@ -287,8 +287,7 @@ input[type="text"]{
 
 .skill-card .menu-content li {
   margin: 0 2px;
-  position: absolute;
-  bottom: 0;
+  position: relative;
 }
 
 .skill-card .menu-content span {
