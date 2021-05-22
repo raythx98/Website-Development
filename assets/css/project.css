@@ -144,11 +144,8 @@ a:hover {
   z-index: 1;
 }
 
-.clamp2{
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
+.clamp1{
+  text-overflow: ellipsis;
 }
 
 .clamp8{
