@@ -217,7 +217,7 @@ a:hover {
   }
 }
 
-@media(min-width: 425px){
+@media(min-width: 440px){
   .card .title{
     font-size: 1.3em;
   }
