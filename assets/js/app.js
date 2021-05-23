@@ -3,7 +3,7 @@
 let header = $(`
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 <a class="navbar-brand" href="index.html">RayToh . train() </a>
-<div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+<div id="issaButton" class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
 
   <div id="js-hamburger" class="hamburger">
     <span class="first"></span>
@@ -245,11 +245,11 @@ $(function () {
         menuBtn.classList.add('open')
         menuOpen = true;
         $("#js-hamburger").addClass('is-active');
-        menuBtn.prop('disabled',true);
+        $("#issaButton").prop('disabled',true);
         console.log("1");
         setTimeout(function(){
           // enable click after 1 second
-          menuBtn.prop('disabled',false);
+          $("#issaButton").prop('disabled',false);
         },1000); // 1 second delay
         console.log("2");
       }
@@ -257,11 +257,11 @@ $(function () {
         menuBtn.classList.remove('open');
         menuOpen = false;
         $("#js-hamburger").removeClass('is-active');
-        menuBtn.prop('disabled',true);
+        $("#issaButton").prop('disabled',true);
         console.log("3");
         setTimeout(function(){
           // enable click after 1 second
-          menuBtn.prop('disabled',false);
+          $("#issaButton").prop('disabled',false);
         },1000); // 1 second delay
         console.log("4");
       }
