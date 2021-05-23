@@ -121,7 +121,6 @@ ul ol{
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  max-width: 400px;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 767px){
@@ -155,8 +154,6 @@ ul ol{
     border-bottom-left-radius: 13px;
     border-top-right-radius: 0;
     max-width: 310px;
-    height: auto;
-    width: 100%;
   }
 }
 
