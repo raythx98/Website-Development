@@ -3,9 +3,9 @@
 let header = $(`
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 <a class="navbar-brand" href="index.html">RayToh . train() </a>
-<div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+<div class="hamburger_wrapper navbar-toggler disable-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
 
-  <div id="js-hamburger" class="hamburger disable-btn">
+  <div id="js-hamburger" class="hamburger">
     <span class="first"></span>
     <span class="second"></span>
     <span class="third"></span>
