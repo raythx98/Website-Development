@@ -248,7 +248,6 @@ $(function () {
       else{
         menuBtn.classList.remove('open');
         menuOpen = false;
-        $("#js-hamburger").addClass('is-active');
       }
   });
 
