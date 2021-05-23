@@ -135,7 +135,7 @@ ul ol{
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .main ul {
-    padding: 1rem !important;
+    padding: 2rem !important;
   }
 }
 
