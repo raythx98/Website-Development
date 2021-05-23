@@ -5,7 +5,7 @@ let header = $(`
 <a class="navbar-brand" href="index.html">RayToh . train() </a>
 <div class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
 
-  <div id="js-hamburger" class="hamburger class="disable-btn"">
+  <div id="js-hamburger" class="hamburger disable-btn">
     <span class="first"></span>
     <span class="second"></span>
     <span class="third"></span>
@@ -258,7 +258,6 @@ $(function(){
   
   $("#js-hamburger").on("click", function(){
     $(this).toggleClass('is-active');
-    console.log("yup");
     // let a common class(disable-btn) for each button which should be disabled for on second
     $('.disable-btn').prop('disabled',true);
     setTimeout(function(){
