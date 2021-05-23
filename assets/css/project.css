@@ -410,6 +410,10 @@ ul{
   }
 }
 
+.card .title-div{
+  font-size: 2rem;
+}
+
 .main{
   display:flex;
   flex-wrap:wrap;
