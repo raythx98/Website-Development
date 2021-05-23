@@ -115,14 +115,12 @@ ul ol{
 }
 
 .card1 .featured-image {
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   overflow: hidden;
-  width: 100%;
-  height: auto;
   max-width: 400px;
 }
 
