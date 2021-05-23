@@ -175,7 +175,7 @@ html {
 
 .is-active .first {
   transform-origin: .167em .33em;
-  transform: rotate(45deg) translate(0.167em, -0.25em);
+  transform: rotate(47deg) translate(0.167em, -0.25em);
 }
 
 .second {

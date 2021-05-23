@@ -244,28 +244,24 @@ $(function () {
       if(!menuOpen){
         menuBtn.classList.add('open')
         menuOpen = true;
+        $("#js-hamburger").toggleClass('is-active');
       }
       else{
         menuBtn.classList.remove('open');
         menuOpen = false;
+        $("#js-hamburger").toggleClass('is-active');
       }
   });
 
 });
 
 // function for toggling hamburger is-active class
-$(function(){
+// $(function(){
   
-  $("#js-hamburger").on("click", function(){
-    $(this).toggleClass('is-active');
-    // let a common class(disable-btn) for each button which should be disabled for on second
-    $('.disable-btn').prop('disabled',true);
-    setTimeout(function(){
-       // enable click after 1 second
-       $('.disable-btn').prop('disabled',false);
-    },1000); // 1 second delay
-  });
-});
+//   $("#js-hamburger").on("click", function(){
+//     $(this).toggleClass('is-active');
+//   });
+// });
 
 // Dark mode
 
