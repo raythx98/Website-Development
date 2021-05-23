@@ -263,7 +263,7 @@ $(function () {
           // enable click after 1 second
           menuBtn.prop('disabled',false);
         },1000); // 1 second delay
-        console.log("4);
+        console.log("4");
       }
   });
 
