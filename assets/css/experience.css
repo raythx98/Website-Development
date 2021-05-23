@@ -125,10 +125,20 @@ ul ol{
   height: 300px;
 }
 
+@media only screen and (min-width: 1px) and (max-width: 767px){
+  .main ul {
+    padding: 2rem !important;
+  }
+  }
+
 @media only screen and (min-width: 768px) {
   .card1 {
     flex-direction: row;
     max-height: 70vh;
+  }
+
+  .main ul {
+    padding: 1rem !important;
   }
 
   .card1 h3 {
@@ -202,7 +212,6 @@ ul ol{
   margin: 0 auto;
   min-height: 15rem;
   max-width: 1050px;
-  padding: 1rem !important;
 }
 
 .main a {
