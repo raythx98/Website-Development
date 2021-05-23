@@ -215,8 +215,9 @@ html {
 
 
 .bike{
-  margin-top: 30px;
- display: block;
+  margin: auto;
+  display: block;
+  max-width: 600px;
 }
 
 #right-wheel,
