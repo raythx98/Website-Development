@@ -172,6 +172,10 @@ a:hover {
     font-size: 1em;
   }
 
+  .card .subtitle{
+    font-size: 0.65em;
+  }
+
   .card .data{
     height: 53%;
   }
@@ -193,6 +197,10 @@ a:hover {
     font-size: 1.2em;
   }
 
+  .card .subtitle{
+    font-size: 0.8em;
+  }
+
   .card .data{
     height: 56%;
   }
@@ -212,6 +220,10 @@ a:hover {
 @media(min-width: 425px){
   .card .title{
     font-size: 1.3em;
+  }
+
+  .card .subtitle{
+    font-size: 0.9em;
   }
 
   .card .data{
