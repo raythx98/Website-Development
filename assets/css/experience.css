@@ -82,7 +82,7 @@ html[data-theme="light"] {
   max-height: 80%;
   border:none;
   border-radius: 4px;
-  box-shadow: -3px -3px 4px var(--shadow-col2), 2px 3px 4px var(--shadow-col1), 3px -3px 4px var(--shadow-col2), -2px -3px 4px var(--shadow-col1);
+  box-shadow: 2px 3px 4px var(--shadow-col1), -2px -3px 4px var(--shadow-col1);
   transition: all 0.4s;
   contain: content;
 }
