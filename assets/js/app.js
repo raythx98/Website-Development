@@ -3,7 +3,7 @@
 let header = $(`
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 <a class="navbar-brand" href="index.html">RayToh . train() </a>
-<div id="issaButton" class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+<div id="issaButton" class="hamburger_wrapper navbar-toggler" type="button" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
 
   <div id="js-hamburger" class="hamburger">
     <span class="first"></span>
@@ -245,6 +245,7 @@ $(function () {
         menuBtn.classList.add('open')
         menuOpen = true;
         $("#js-hamburger").addClass('is-active');
+        $('.collapse').collapse("show");
         // $("#issaButton").prop('disabled',true);
         // console.log("1");
         // setTimeout(function(){
@@ -257,6 +258,7 @@ $(function () {
         menuBtn.classList.remove('open');
         menuOpen = false;
         $("#js-hamburger").removeClass('is-active');
+        $('.collapse').collapse("hide");
         // $("#issaButton").prop('disabled',true);
         // console.log("3");
         // setTimeout(function(){
