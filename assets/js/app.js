@@ -244,12 +244,12 @@ $(function () {
       if(!menuOpen){
         menuBtn.classList.add('open')
         menuOpen = true;
-        $("#js-hamburger").toggleClass('is-active');
+        $("#js-hamburger").addClass('is-active');
       }
       else{
         menuBtn.classList.remove('open');
         menuOpen = false;
-        $("#js-hamburger").toggleClass('is-active');
+        $("#js-hamburger").removeClass('is-active');
       }
   });
 
