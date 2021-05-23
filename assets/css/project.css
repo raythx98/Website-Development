@@ -169,11 +169,12 @@ a:hover {
 
 @media(min-width: 1px){
   .card .title{
-    font-size: 1em;
+    font-size: 0.8em;
   }
+  
 
   .card .subtitle{
-    font-size: 0.65em;
+    font-size: 0.55em;
   }
 
   .card .data{
@@ -217,7 +218,7 @@ a:hover {
   }
 }
 
-@media(min-width: 425px){
+@media(min-width: 420px){
   .card .title{
     font-size: 1.2em;
   }
