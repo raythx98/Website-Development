@@ -120,7 +120,27 @@ html[data-theme = 'dark']
   color:black;
 }
 
-@media only screen and (max-width: 766px) and (max-width: 766px) {
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+
+  .padd{
+      padding-top: 3rem;
+      padding-bottom: 0rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .padd{
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      padding-left: 3rem;
+      padding-right: 0rem;
+  }
+}
+
+@media only screen and (min-width: 766px) and (max-width: 766px) {
 
   .edSection{
       margin-top: 350px;
