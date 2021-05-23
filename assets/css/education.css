@@ -108,8 +108,8 @@ html[data-theme = 'dark']
 }
 .s2 .card img
 {
-    height: 90%;
-    width: 90%;
+    height: auto;
+    width: 100%;
 }
 .s2 .card, .s2 img
 {
