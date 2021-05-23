@@ -45,7 +45,7 @@ const projects = [
     Githublink: "https://github.com/AY2021S1-CS2103T-T17-3/tp",
   },
   {
-    title: "Database Systems",
+    title: "SQL Database",
     cardImage: "assets/images/project-page/database_systems.png",
     description: "For our database project, we devised a Database Systems for company using PostgreSQL.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
