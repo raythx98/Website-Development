@@ -253,7 +253,13 @@ $(function () {
 
 });
 
-$('#js-hamburger').on('click',function(){
+// function for toggling hamburger is-active class
+$(function(){
+  
+  $("#js-hamburger").on("click", function(){
+    $(this).toggleClass('is-active');
+  });
+
   command.log("yup");
   // let a common class(disable-btn) for each button which should be disabled for on second
   $('.disable-btn').prop('disabled',true);
@@ -261,14 +267,6 @@ $('#js-hamburger').on('click',function(){
      // enable click after 1 second
      $('.disable-btn').prop('disabled',false);
   },1000); // 1 second delay
-});
-
-// function for toggling hamburger is-active class
-$(function(){
-  
-  $("#js-hamburger").on("click", function(){
-    $(this).toggleClass('is-active');
-  });
 
 });
 
