@@ -169,9 +169,35 @@ a:hover {
 
 @media(min-width: 1px){
   .card .title{
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
   
+
+  .card .subtitle{
+    font-size: 0.4em;
+  }
+
+  .card .data{
+    height: 53%;
+  }
+
+  .skill-card .data {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    transform: translateY(calc(54px + 3em));
+    padding: 5px;
+  }
+  
+  .menu-content{
+    padding-top: 1em;
+  }
+}
+
+@media(min-width: 305px){
+  .card .title{
+    font-size: 0.8em;
+  }
+
 
   .card .subtitle{
     font-size: 0.55em;
@@ -246,6 +272,10 @@ a:hover {
 @media(min-width: 500px){
   .card .title{
     font-size: 1.5em;
+  }
+
+  .card .subtitle{
+    font-size: 1em;
   }
 
   .card .data{
