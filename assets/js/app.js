@@ -258,7 +258,7 @@ $(function(){
   
   $("#js-hamburger").on("click", function(){
     $(this).toggleClass('is-active');
-    command.log("yup");
+    console.log("yup");
     // let a common class(disable-btn) for each button which should be disabled for on second
     $('.disable-btn').prop('disabled',true);
     setTimeout(function(){
