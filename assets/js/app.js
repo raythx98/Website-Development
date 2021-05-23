@@ -244,11 +244,11 @@ $(function () {
       if(!menuOpen){
         menuBtn.classList.add('open')
         menuOpen = true;
-        $("#js-hamburger").addClass('is-active');
+        $("#js-hamburger").removeClass('is-active');
         setTimeout(
           function(){
           // enable click after 1 second
-            $("#js-hamburger").addClass('is-active');
+            $("#js-hamburger").removeClass('is-active');
             menuOpen = true;
           },100
         ); // 1 second delay
@@ -263,11 +263,11 @@ $(function () {
       else{
         menuBtn.classList.remove('open');
         menuOpen = false;
-        $("#js-hamburger").removeClass('is-active');
+        $("#js-hamburger").addClass('is-active');
         setTimeout(
           function(){
           // enable click after 1 second
-            $("#js-hamburger").removeClass('is-active');
+            $("#js-hamburger").addClass('is-active');
             menuOoen = false;
           },100
         ); // 1 second delay
