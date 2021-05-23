@@ -245,25 +245,25 @@ $(function () {
         menuBtn.classList.add('open')
         menuOpen = true;
         $("#js-hamburger").addClass('is-active');
-        $("#issaButton").prop('disabled',true);
-        console.log("1");
-        setTimeout(function(){
-          // enable click after 1 second
-          $("#issaButton").prop('disabled',false);
-        },1000); // 1 second delay
-        console.log("2");
+        // $("#issaButton").prop('disabled',true);
+        // console.log("1");
+        // setTimeout(function(){
+        //   // enable click after 1 second
+        //   $("#issaButton").prop('disabled',false);
+        // },1000); // 1 second delay
+        // console.log("2");
       }
       else{
         menuBtn.classList.remove('open');
         menuOpen = false;
         $("#js-hamburger").removeClass('is-active');
-        $("#issaButton").prop('disabled',true);
-        console.log("3");
-        setTimeout(function(){
-          // enable click after 1 second
-          $("#issaButton").prop('disabled',false);
-        },1000); // 1 second delay
-        console.log("4");
+        // $("#issaButton").prop('disabled',true);
+        // console.log("3");
+        // setTimeout(function(){
+        //   // enable click after 1 second
+        //   $("#issaButton").prop('disabled',false);
+        // },1000); // 1 second delay
+        // console.log("4");
       }
   });
 
