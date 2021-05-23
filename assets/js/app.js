@@ -244,52 +244,15 @@ $(function () {
       if(!menuOpen){
         menuBtn.classList.add('open')
         menuOpen = true;
-        $("#js-hamburger").removeClass('is-active');
-        setTimeout(
-          function(){
-          // enable click after 1 second
-            $("#js-hamburger").removeClass('is-active');
-            menuOpen = true;
-          },100
-        ); // 1 second delay
-        // $("#issaButton").prop('disabled',true);
-        // console.log("1");
-        // setTimeout(function(){
-        //   // enable click after 1 second
-        //   $("#issaButton").prop('disabled',false);
-        // },1000); // 1 second delay
-        // console.log("2");
       }
       else{
         menuBtn.classList.remove('open');
         menuOpen = false;
         $("#js-hamburger").addClass('is-active');
-        setTimeout(
-          function(){
-          // enable click after 1 second
-            $("#js-hamburger").addClass('is-active');
-            menuOoen = false;
-          },100
-        ); // 1 second delay
-        // $("#issaButton").prop('disabled',true);
-        // console.log("3");
-        // setTimeout(function(){
-        //   // enable click after 1 second
-        //   $("#issaButton").prop('disabled',false);
-        // },1000); // 1 second delay
-        // console.log("4");
       }
   });
 
 });
-
-// function for toggling hamburger is-active class
-// $(function(){
-  
-//   $("#js-hamburger").on("click", function(){
-//     $(this).toggleClass('is-active');
-//   });
-// });
 
 // Dark mode
 
