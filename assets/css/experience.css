@@ -157,7 +157,7 @@ ul ol{
     border-bottom-left-radius: 13px;
     border-top-right-radius: 0;
     max-width: 310px;
-    height: inherit;
+    height: auto;
     width: 100%;
   }
 }
