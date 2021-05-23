@@ -110,7 +110,7 @@ let footer = $(`
 <footer class="footer">
   <div class="container p-4">
     <div class="row">
-      <div class="col-lg-6 col-md-12 mb-4 mb-md-0 justify-content-center align-self-center">
+      <div class="col-lg-6 col-md-12 mb-md-0 justify-content-center align-self-center">
         <p class="tag" >Feel free to contact me for bug reports, security flaws or suggestions!
         </p>
           <div class="rounded-social-buttons tag">
@@ -210,7 +210,7 @@ let footer = $(`
           </div>
       </div>
 
-        <div class="col-lg-6 col-md-12 mb-md-0">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
           <div class="form-style-6">
             <h6 class="display">Contact Me</h6>
             <form action="https://formsubmit.co/1ad89f57552064add2679b10be14253f" method="POST">
