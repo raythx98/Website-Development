@@ -16,7 +16,7 @@ html[data-theme = 'dark']
 
 .centerImg{
   margin: auto;
-
+  display: block;
 }
 
 /* -----Education Section CSS----- */
