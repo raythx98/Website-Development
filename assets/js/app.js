@@ -248,7 +248,8 @@ $(function () {
         setTimeout(
           function(){
           // enable click after 1 second
-            $("#js-hamburger").addClass('is-active');;
+            $("#js-hamburger").addClass('is-active');
+            menuOpen = true;
           },100
         ); // 1 second delay
         // $("#issaButton").prop('disabled',true);
@@ -266,7 +267,8 @@ $(function () {
         setTimeout(
           function(){
           // enable click after 1 second
-            $("#js-hamburger").removeClass('is-active');;
+            $("#js-hamburger").removeClass('is-active');
+            menuOoen = false;
           },100
         ); // 1 second delay
         // $("#issaButton").prop('disabled',true);
