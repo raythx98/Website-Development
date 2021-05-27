@@ -2,21 +2,21 @@ let darkMode = localStorage.getItem('darkMode');
 
 const darkModeToggle = document.querySelector('.checkboxtoggle');
 
-const enableDarkMode = function(){
+const enableDarkMode = () => {
     // 1. Add the class to the body
     document.body.classList.add('darkmode');
     // 2. Update darkMode in localStorage
     localStorage.setItem('darkMode', 'enabled');
   }
   
-  const disableDarkMode = function(){
+  const disableDarkMode = () => {
     // 1. Remove the class from the body
     document.body.classList.remove('darkmode');
     // 2. Update darkMode in localStorage 
     localStorage.setItem('darkMode', null);
   }
 
-darkModeToggle.addEventListener('click', function(){
+darkModeToggle.addEventListener('click', () => {
     console.log('test');
 })
 
@@ -29,7 +29,7 @@ darkModeToggle.addEventListener('click', function(){
   }
   
   // When someone clicks the button
-  darkModeToggle.addEventListener('click', function(){
+  darkModeToggle.addEventListener('click', () => {
     // get their darkMode setting
     darkMode = localStorage.getItem('darkMode'); 
     

@@ -25,10 +25,10 @@ const techexp = [
   },
 ];
 
-const techShowCards2 = function(){
+const techShowCards2 = () => {
   let output = "";
   techexp.forEach(
-    function({ title, cardImage, place, time, desp }){
+    ({ title, cardImage, place, time, desp }) =>
       (output += `        
       <ul>
       <li class="card card1">
@@ -50,7 +50,6 @@ const techShowCards2 = function(){
       </li>
     </ul>
       `)
-    }
   );
   techexperiencecards.innerHTML = output;
 };
