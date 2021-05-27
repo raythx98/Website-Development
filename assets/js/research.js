@@ -18,10 +18,10 @@ const research = [
     }
 ];
    
-const fillData = () => {
+const fillData = function(){
     let output = "";
     research.forEach(
-        ({image, title, authors, conferences, researchYr, citebox, citation, absbox, abstract}) =>
+        function({image, title, authors, conferences, researchYr, citebox, citation, absbox, abstract}){
         (output +=`
             <tr> 
                 <td class="imgCol"><img src="${image}" class="rImg"></td>
@@ -59,6 +59,7 @@ const fillData = () => {
                     </div>
                 </td>
             </tr>`)
+        }
         );
     researchTable.innerHTML = output;
 

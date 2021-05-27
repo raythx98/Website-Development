@@ -79,10 +79,10 @@ const projects = [
 ];
 
 // function for rendering project cards data
-const showCards = () => {
+const showCards = function(){
   let output = "";
   projects.forEach(
-    ({ title, cardImage, description, Previewlink, Githublink }) => {
+    function({ title, cardImage, description, Previewlink, Githublink }){
       (output += `       
     <div class="column skill-card card">
       <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
