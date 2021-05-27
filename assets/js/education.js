@@ -1,7 +1,7 @@
 AOS.init();
 
 // MOOCs Cards
-
+/*
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
@@ -31,6 +31,7 @@ const moocscards = [
   }
 
 ];
+*/
 
 /*
 const experience = [
@@ -76,6 +77,7 @@ function showExperience() {
 }
 */
 
+/*
 const showCards = () => {
   let output = "";
   moocscards.forEach(
@@ -102,7 +104,7 @@ const showCards = () => {
   moocs.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards);
-
+*/
 
 /* Badges*/
 /*
