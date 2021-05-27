@@ -25,7 +25,7 @@ window.onload = function () {
   });
 
   function blink() {
-    blinkEvent = setInterval(() => {
+    blinkEvent = setInterval(function(){
       if (document.title === attentionMessage) {
         document.title = pageTitle;
         favicon.href = "./assets/images/favicon.png";
