@@ -125,7 +125,7 @@ if (allElements.length > 0) {
 					let _letter = letter === ' ' ? '&nbsp;' : letter;
 
 					// It wraps every letter with a "span" and puts all they back to the element
-					txtElement.innerHTML += '<span>${_letter}</span>';
+					txtElement.innerHTML += '<span>'+_letter+'</span>';
 				});
 
 				let spans = txtElement.childNodes;
