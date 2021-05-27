@@ -1,5 +1,7 @@
 /*Research Details Table*/
 
+/*
+
 const researchTable = document.querySelector(".main");
 
 const research = [
@@ -17,6 +19,10 @@ const research = [
         absbox: "absPopup1"
     }
 ];
+
+*/
+
+/*
    
 const fillData = () => {
     let output = "";
@@ -64,6 +70,8 @@ const fillData = () => {
 
 };
 document.addEventListener("DOMContentLoaded", fillData);
+
+*/
 
 $(document).ready(function(){
   if (localStorage.getItem('darkMode') === 'enabled') {
