@@ -224,6 +224,14 @@ html {
   }
 }
 
+@media only screen and (min-width: 992px){
+  .bike{
+    width: 0px;
+    height: 0px;
+  }
+}
+
+
 #right-wheel,
 #left-wheel {
  animation: wheel 3s linear infinite;
