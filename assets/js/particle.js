@@ -119,7 +119,7 @@ if (allElements.length > 0) {
 				txtElement.textContent = ''; // It removes the previous text from the element
 
 				// For each letter in the array
-				txtArr.forEach((letter) => {
+				txtArr.forEach(function(letter){
 					// It replaces the empty space for the "non-break-space" HTML...
 					// ... This is needed to separate the words properly
 					let _letter = letter === ' ' ? '&nbsp;' : letter;
@@ -141,7 +141,7 @@ if (allElements.length > 0) {
 						clearInterval(letterInterval);
 
 						// It waits 4 seconds to start erasing the word
-						setTimeout(() => {
+						setTimeout(function(){
 							eraseText();
 						}, 600);
 					}
