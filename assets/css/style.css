@@ -214,12 +214,14 @@ html {
 */
 
 
-.bike{
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 600px;
-  width: 100%;
+@media only screen and (max-width: 991px){
+  .bike{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 600px;
+    width: 100%;
+  }
 }
 
 #right-wheel,
