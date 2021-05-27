@@ -1,8 +1,10 @@
 /* Project Cards */
 
-const projectcards = document.querySelector(".projectcards");
+// const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
+
+/*
 const projects = [
   {
     title: "Portfolio Website",
@@ -77,8 +79,12 @@ const projects = [
     Githublink: "https://github.com/raythx98/Flight-Delays-in-US-Airlines",
   },
 ];
+*/
+
 
 // function for rendering project cards data
+
+/*
 const showCards = () => {
   let output = "";
   projects.forEach(
@@ -108,6 +114,8 @@ const showCards = () => {
   projectcards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards);
+
+*/
 
 function myFunction() {
   // Declare variables
