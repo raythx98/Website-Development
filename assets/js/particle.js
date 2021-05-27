@@ -99,6 +99,10 @@ const allElements = document.querySelectorAll('.animated-text');
 // It checks if there is at least one element
 if (allElements.length > 0) {
 	//It runs the script for each found element
+	if (window.NodeList && !NodeList.prototype.forEach) {
+		NodeList.prototype.forEach = Array.prototype.forEach;
+	}
+
 	allElements.forEach(function(element){
 		const txtElement = element,
 			wordsList = txtElement.getAttribute('data-words'),
