@@ -10,7 +10,6 @@ let header = $(`
     <span class="second"></span>
     <span class="third"></span>
   </div>
-
 </div>
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
@@ -31,7 +30,7 @@ let header = $(`
    </li>
 
    <div class="bike">
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet"> 
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 0 650 400" preserveAspectRatio="xMinYMin meet">
      <rect/>
      <g>
        <g id="man-bike">
@@ -240,7 +239,8 @@ $(function () {
 //toggler hamburger functions
     const menuBtn = document.querySelector('.navbar-toggler');
     let menuOpen = false;
-    menuBtn.addEventListener('click', () => {
+    menuBtn.addEventListener('click', 
+    function() {
       if(!menuOpen){
         menuBtn.classList.add('open')
         menuOpen = true;
@@ -249,7 +249,8 @@ $(function () {
         menuBtn.classList.remove('open');
         menuOpen = false;
       }
-  });
+  }
+);
 
 });
 
