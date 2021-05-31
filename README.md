@@ -22,47 +22,51 @@ Feel free to reach out to me via the information provided in the [website](https
 
 ### Personalising your Website
 
-#### Changing the details
-Home Page
-Home
+> Images
 
-To add your image on the home page :
+- Images are organised under `assets/images`
+- For a start, add your profile picture to `assets/images`
+- Open index.html
+- Change the `<img src="">` to your image path, do take note that image file names are case-sensitive
+- This changes the picture in the home page
 
-Add your image to assets -> images folder
-Open index.html
-Change the <img src=""> to your image path
-To change the name on home page :
+> Social Media Links
 
-Open index.html
-Change the name from John Doe to Your Name
-To change the interests displayed :
+* Home Page
+  * Under `index.html`, search for `socialicon` and change the links
+* Footer
+  * Under `js/app.js`, search for `social-button` and change the links
 
-Open index.html
-Inside h1 tag, change the data-words with your interests
-To add your social media links :
+> Contact Form
 
-Open index.html
-Inside <div class="social-icons"> fill up the link to your social media accounts inside href
-Navbar
-Navbar
+* Under `js/app.js`, search for `form action` and replace the random string of characters with your email
+  * For example, `<form action="https://formsubmit.co/myemail@dot.com" method="POST">`
+* Submit a test form and follow the instructions to activate the API
 
-To change the logo :
-Add your logo image inside assets -> images folder
-Open main.js
-Under Footer and Navbar heading, inside <a href="#!" class="brand-logo">, change the path inside <img src=""> to your image path
-Footer
-Footer
+> Website Signature
 
-To change the logo :
+* Under `js/app.js`, search for `navbar-brand` and change the words to your desired signature
 
-Open main.js
-Go to let footer, inside <a class="webintern-footer-logo" href="#">, change the path inside<img src=""> to your image path
-To add your social media links :
+> Home Page
 
-Open main.js
-Inside <div class="social-icons-footer"> fill up the link to your social media accounts inside href
-Experience Page
-Experience
+* To change the name on the home page
+  * Open `index.html`
+  * Change all instances of `Ray Toh` to your Name
+* To change the interests displayed
+  * Open `index.html`
+  * Search for `data-words` and change the list of words
+
+> Experience
+
+* Add your work experience images to `assets/images/experience-page`
+* To change the interests displayed
+  * Open `index.html`
+  * Search for `data-words` and change the list of words
+
+> Projects
+> Research
+> Education
+
 
 To change the work experience details :
 
