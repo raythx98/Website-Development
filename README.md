@@ -11,17 +11,18 @@ Feel free to reach out to me via the information provided in the [website](https
 # Use my Website as Template
 
 ### Forking the repository
-- Visit the (repository)[https://github.com/raythx98/portfolio-website]
+- Visit my [repository](https://github.com/raythx98/portfolio-website).
 - Fork the repository by clicking on the Fork button
 
-Cloning the repository
-Visit the repository
-Copy the link the of the repository by clicking on the clone button
-git clone
+### Cloning the repository
+- Visit the repository
+- Copy the link `https://github.com/raythx98/portfolio-website.git` of the repository by clicking on the clone button
+- Open terminal
+- Type `git clone https://github.com/raythx98/portfolio-website.git`
 
-Open terminal
-Type git clone https://github.com/smaranjitghose/awesome-portfolio-websites.git
-Changing the details
+### Personalising your Website
+
+#### Changing the details
 Home Page
 Home
 
