@@ -120,23 +120,27 @@ Feel free to reach out to me via the information provided in the [website](https
 
 > SEO and Miscellaneous
 
-Search for site_name and update it to the link to your portfolio
+- Search for `site_name` & `site` and update it to the link to your portfolio
 
-Search for title and update it from John Doe | Home to Your Name | Home
+- Search for `title` and update it from `Ray Toh | Home` to `Your Name | Home`
 
-Search for description and update by writing something about yourself
+- Search for `keywords` & `description` and update by writing something about yourself
 
-Search for url and update it to the link to your portfolio
+- Search for `url` and update it to the link to your portfolio
 
-Search for site and again update it to the link to your portfolio
+- Search for `application-name` and update it from `Ray Toh | Home` to `Your Name | Home`
 
-Search for application-name and update it from John Doe | Home to Your Name | Home
+- Search for `apple-mobile-web-app-title` and update it from `Ray Toh | Home` to `Your Name | Home`
 
-Search for apple-mobile-web-app-title and update it from John Doe | Home to Your Name | Home
+- Search for `summary` and update it by writing somthing about yourself
 
-Search for summary and update it by writing somthing about yourself
+- Add your preview image to to `assets/images` and upload the same image to an image hosting website running on HTTPS, such as [IMGUR](https://imgur.com/).
 
-#### Final Steps
+- Search for `og:image` and update it to the image path of your preview image
+
+- Search for `og:image:secure_url` and update it to the IMGUR link of your preview image
+
+### Final Steps
 
 After making all the changes, now it's time to push these changes to your local repository. For this, steps to be followed are :
 
