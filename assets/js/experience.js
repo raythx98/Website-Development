@@ -1,5 +1,6 @@
 //  Technical experience cards
 
+/*
 const techexperiencecards = document.querySelector(".technical-experience-cards");
 const techexp = [
   {
@@ -54,10 +55,11 @@ const techShowCards2 = () => {
   techexperiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", techShowCards2);
+*/
 
 //  Work experience cards
 
-
+/*
 const workexperiencecards = document.querySelector(".work-experience-cards");
 const workexp = [
   {
@@ -112,7 +114,7 @@ const workShowCards2 = () => {
   workexperiencecards.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", workShowCards2);
-
+*/
 
 // Volunteership Cards
 /*
