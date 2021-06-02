@@ -271,12 +271,19 @@ $(document).ready(function(){
         $('body').addClass('darkmode');
         $('.text-dark').addClass('darkmodetext');
         $('tr').addClass('bordered');
+        if ($("#Layer_13").length != 0) {
+          $("#Layer_13").css({"fill": "#070D2D"});
+        }
         localStorage.setItem('darkMode', 'enabled');
+        
       }
       else if($(this).prop("checked") == false){
         $('body').removeClass('darkmode');
         $('.text-dark').removeClass('darkmodetext');
         $('tr').removeClass('bordered');
+        if ($("#Layer_13").length != 0) {
+          $("#Layer_13").css({"fill": "#FFFFFF"});
+        }
         localStorage.setItem('darkMode', null);
       }
   });
