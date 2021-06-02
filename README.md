@@ -118,7 +118,7 @@ Feel free to reach out to me via the information provided in the [website](https
     * Change the current image path to your course image path inside `<img src="">`
     * Change the current MOOC link to yours inside `<a href="">`
 
-> SEO and Miscellaneous
+> Search Engine Optimisation and Miscellaneous
 
 - Search for `site_name` & `site` and update it to the link to your portfolio
 
@@ -142,14 +142,18 @@ Feel free to reach out to me via the information provided in the [website](https
 
 ### Final Steps
 
-After making all the changes, now it's time to push these changes to your local repository. For this, steps to be followed are :
+1. Save the changes you have made till now
 
-Save the changes you have made till now
+2. Open terminal in the file you made the changes
 
-Open terminal in the file you made the changes
+3. Type `git add .`
 
-Type git add .
+4. Type `git commit -m "Your commit message"`
+ 
+5. Type `git push origin master`
 
-Then type git commit -m "Your commit message"
+6. In your Github repository e.g. `https://github.com/raythx98/portfolio-website`, click on Settings/Pages
 
-Then finally, git push origin master
+7. Build your website by choosing `Branch: master`, folder `/ (root)` and click save.
+
+8. Your website is now up and running!
