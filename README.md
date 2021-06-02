@@ -15,6 +15,7 @@ Feel free to reach out to me via the information provided in the [website](https
 - Fork the repository by clicking on the Fork button
 
 ### Cloning the repository
+- Install [git](https://git-scm.com/downloads)
 - Visit the repository
 - Copy the link `https://github.com/raythx98/portfolio-website.git` of the repository by clicking on the clone button
 - Open terminal
@@ -59,132 +60,100 @@ Feel free to reach out to me via the information provided in the [website](https
 > Experience
 
 * Add your work experience images to `assets/images/experience-page`
-* To change the interests displayed
-  * Open `index.html`
-  * Search for `data-words` and change the list of words
+* To change the technical experience details
+  * Open `experience.html`
+  * Search for `technical-experience-cards` 
+    * Change the current title to your position inside `title`
+    * Change the current image path to your image path inside `img src=""`
+    * Change the current place to your industry/company name inside `pre-heading`
+    * Change the current time to your duration of work inside `author`
+    * Change the current description to your job description inside `<ol>""</ol>`
+* To change the work experience details
+  * Open `experience.html`
+  * Search for `work-experience-cards` 
+    * Change the current title to your position inside `title`
+    * Change the current image path to your image path inside `img src=""`
+    * Change the current place to your industry/company name inside `pre-heading`
+    * Change the current time to your duration of work inside `author`
+    * Change the current description to your job description inside `<ol>""</ol>`
 
 > Projects
+
+* Add your project images to `assets/images/project-page`
+* To change the project details
+  * Open `project.html`
+  * Search for `projectcards` 
+    * Change the current title to your project name inside `title`
+    * Change the current image path to your project image path inside `wrapper`
+    * Change the current description to your project description inside `subtitle`
+    * Add the preview link and github link inside `menu-content`
+
 > Research
+
+* Add your research images to `assets/images/research-page`
+* To change the research details
+  * Open `research.html`
+  * Search for `researchDetailsTable` 
+    * Change the current title to your research paper title inside `paperTitle`
+    * Change the current authors to your research paper authors inside `authors`
+    * Change the current conferences to your research conferences inside `rConferences`
+    * Change the current research year to your research year inside `researchYr`
+    * Change the current image path to your image path inside `<img src="">`
+    * Change the current abstract to yours inside vancouver `ABSTRACT`
+    * Change the current citation to yours inside bibtex `CITATION`
+
 > Education
 
+* Add your institute and MOOC images to `assets/images/education-page`
+* To change the formal education details
+  * Open `education.html`
+  * Search for `edSection` 
+    * Change the institute name, subheading and duration of study inside `qual`
+    * Change the current image path to your image path inside `<img src="">`
+    * Change the current description to yours inside `<p>""</p>`
+* To change the MOOC details
+  * Open `education.html`
+  * Search for `moocs` 
+    * Change the current title to your course name inside `mooc-title`
+    * Change the current image path to your course image path inside `<img src="">`
+    * Change the current MOOC link to yours inside `<a href="">`
 
-To change the work experience details :
+> Search Engine Optimisation and Miscellaneous
 
-Add your work experience images to assets -> images -> experience-page folder
-Open experience.js
-Under Work Experience Cards heading,
-Change the current title to your position inside title
-Change the current image path to your image path inside cardImage
-Change the current place to your industry/company name inside place
-Change the current time to your duration of work inside time
-Change the current description to your job description inside desp
-Volunteership
+- Search for `site_name` & `site` and update it to the link to your portfolio
 
-To change the volunteership details :
+- Search for `title` and update it from `Ray Toh | Home` to `Your Name | Home`
 
-Add your volunteership work images to assets -> images -> experience-page folder
-Open experience.js
-Under Volunteership Cards heading,
-Change the current title to your organisation name inside title
-Change the current image path to your image path inside cardImage
-Change the current description to your job description inside description
-Mentorship
+- Search for `keywords` & `description` and update by writing something about yourself
 
-To change the mentorship details :
+- Search for `url` and update it to the link to your portfolio
 
-Add your mentorship work images to assets -> images -> experience-page folder
-Open experience.js
-Under Mentorship Card heading,
-Change the current title to your organisation name inside title
-Change the current image path to your image path inside image
-Change the current time to your duration of work inside time
-Change the current description to your work description inside desp
-Projects Page
-Projects
+- Search for `application-name` and update it from `Ray Toh | Home` to `Your Name | Home`
 
-To change the projects details :
+- Search for `apple-mobile-web-app-title` and update it from `Ray Toh | Home` to `Your Name | Home`
 
-Add your projects images to assets -> images -> project-page folder
-Open project.js
-Under Project Cards heading,
-Change the current title to your project name inside title
-Change the current image path to your project image path inside cardImage
-Change the current description to your project description inside description
-Add the preview link inside Previewlink
-Add the github link inside Githublink
-Research Page
-Research
+- Search for `summary` and update it by writing somthing about yourself
 
-To change the research details :
+- Add your preview image to to `assets/images` and upload the same image to an image hosting website running on HTTPS, such as [IMGUR](https://imgur.com/).
 
-Add your research work images to assets -> images -> research-page folder
-Open research.js
-Under Research Details Table heading,
-Change the current title to your research paper title inside title
-Change the current authors to your research paper authors inside authors
-Change the current conferences to your research conferences inside authors
-Change the current research year to your research year inside researchYr
-Change the current image path to your image path inside image
-Change the current vancouver to yours inside vancouver
-Change the current bibtex to yours inside bibtex
-Education Page
-Education
+- Search for `og:image` and update it to the image path of your preview image
 
-To change the formal education details :
+- Search for `og:image:secure_url` and update it to the IMGUR link of your preview image
 
-Add your institute images to assets -> images -> education-page folder
-Open education.js
-Under Timeline Section heading,
-Change the current title to your institute name inside heading
-Change the current image path to your image path inside image
-Change the current sub heading to yours inside subheading
-Change the current description to yours inside description
-mooc
+### Final Steps
 
-To change the mooc section details :
+1. Save the changes you have made till now
 
-Add your MOOCs images to assets -> images -> education-page folder
-Open education.js
-Under MOOCs Cards heading,
-Change the current title to your course name inside title
-Change the current image path to your course image path inside cardImage
-Change the current MOOC link to yours inside moocLink
-badges
+2. Open terminal in the file you made the changes
 
-To change the badges section details :
+3. Type `git add .`
 
-Add your badges' images to assets -> images -> education-page folder
-Open education.js
-Under Badges heading,
-Change the current badge title to yours inside title
-Change the current image path to your badge image path inside image
-Change the current description to yours inside description
-SEO and Miscellaneous
-Search for site_name and update it to the link to your portfolio
+4. Type `git commit -m "Your commit message"`
+ 
+5. Type `git push origin master`
 
-Search for title and update it from John Doe | Home to Your Name | Home
+6. In your Github repository e.g. `https://github.com/raythx98/portfolio-website`, click on `Settings` and navigate to `Pages` on the left sidebar
 
-Search for description and update by writing something about yourself
+7. Build your website by choosing `Branch: master`, folder `/ (root)` and click save.
 
-Search for url and update it to the link to your portfolio
-
-Search for site and again update it to the link to your portfolio
-
-Search for application-name and update it from John Doe | Home to Your Name | Home
-
-Search for apple-mobile-web-app-title and update it from John Doe | Home to Your Name | Home
-
-Search for summary and update it by writing somthing about yourself
-
-Final Steps
-After making all the changes, now it's time to push these changes to your local repository. For this, steps to be followed are :
-
-Save the changes you have made till now
-
-Open terminal in the file you made the changes
-
-Type git add .
-
-Then type git commit -m "Your commit message"
-
-Then finally, git push origin master
+8. Your website is now up and running!
