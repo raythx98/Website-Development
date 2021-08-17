@@ -1,25 +1,28 @@
-html[data-theme = 'light']
-{
+html[data-theme='light'] {
   --bg-col: #fafafa;
   --shadow1: rgba(0, 0, 0, 0.3);
   --shadow2: rgba(0, 0, 0, 0.2);
-
+  --text: #191919;
   --neu-light: white;
   --neu-dark: #c3c3c3;
   --neu-color: #c3c3c3;
   --neu-icon: #c3c3c3;
 }
 
-html[data-theme = 'dark']
-{
+html[data-theme='dark'] {
   --bg-col: #272727;
   --shadow1: rgba(128, 122, 122, 0.233);
   --shadow2: rgba(231, 216, 216, 0.007);
-
   --neu-light: #282828;
   --neu-dark: #080808;
   --neu-color: white;
+  --text: rgba(255, 255, 255, 0.5);
   --neu-icon: whitesmoke;
+}
+
+body {
+  color: var(--text);
+  background-color: var(--bg);
 }
 
 .projects_head{
@@ -28,9 +31,79 @@ html[data-theme = 'dark']
 
 /*color of projects page heading*/
 .my_projects{             
-  color:#1eae98;
+  color:#0e49b5;
 }
 
+.light-mode-button {
+  background: 0;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.light-mode-button:focus {
+  outline: none;
+  /* Not ideal for accessibility */
+}
+
+.light-mode-button span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #d6d7db;
+  box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+  transition: .3s;
+}
+
+.light-mode-button span:nth-child(2) {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+  transition: .3s;
+}
+
+body {
+  background-color: #f6f6f6;
+  transition: background-color .3s;
+}
+
+body[light-mode=dark] {
+  background-color: #141516;
+  color: #ced4e2;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(1) {
+  background-color: #ced4e2;
+  color: #141516;
+}
+
+body[light-mode=dark] .light-mode-button span:nth-child(2) {
+  left: 65px;
+  background-color: #141516;
+}
+
+@media (max-width:766px) {
+  .dropdown {
+      position: absolute;
+      padding-right: 3.5rem;
+  }
+  .godown {
+      z-index: 1;
+      padding-top: 15rem;
+      padding-left: 3.3rem;
+  }
+}
 
 /*For Changing background color of body according to theme*/
 body{

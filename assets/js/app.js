@@ -1,7 +1,7 @@
 'use strict';
 
 let header = $(
-'<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">'
+'<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">'
 +'<a class="navbar-brand" href="index.html">RayToh . train() </a>'
 +'<div id="issaButton" class="hamburger_wrapper navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">'
 
@@ -19,14 +19,12 @@ let header = $(
 +'   <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>'
 +'   <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>'
 +'   <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>'
-+'   <li class="nav-item">'
-+'    <label class="switch">'
-+'      <input type="checkbox" id="checkboxtoggle" class="checkbox">'
-+'      <span class="slider rounded">'
-+'        <i class="fas fa-sun day"></i>'
-+'        <i class="fas fa-moon night"></i>'
-+'      </span>'
-+'    </label>'
++'   <li class="nav-item"><a class="nav-link" href="./assets/docs/Jhon_Doe.pdf" target="_blank">Resume</a></li>'
++'<li class="nav-item">'
++'   <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">'
++'      <span></span>'
++'      <span></span>'
++'    </button>'
 +'   </li>'
 
 +'   <div class="bike">'
@@ -209,9 +207,10 @@ let footer = $(
 +'          </div>'
 +'      </div>'
 
-+'        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">'
++'        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-container">'
 +'          <div class="form-style-6">'
-+'            <h6 class="display">Contact Me</h6>'
++'            <div class="form-header">'
++'            <h6 class="display">Contact Me</h6></div>'
 +'            <form action="https://formsubmit.co/1ad89f57552064add2679b10be14253f" method="POST">'
 +'              <input type="hidden" name="_captcha" value="false">'
 +'              <input type="hidden" name="_next" value="https://raythx.com/submitted.html">'
@@ -227,13 +226,51 @@ let footer = $(
 +'  </div>'
 +'</footer>');
 
+//"Scroll to top" button
+let upArrow = $(`
+  <button id="btnScrollToTop" onclick="scrollToTop()"><i class="fas fa-2x fa-angle-up"></i></button>
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  })
+`)
 
+//function for the "Scroll To Top" button to detect the footer
+$(document).ready(function(){
+  $(window).scroll(function() {
+    console.log($(window).scrollTop());
+    //The button will be hidden until we scroll more than the window's height
+    if ($(window).scrollTop() < $(window).height()) {
+      $("#btnScrollToTop").css("visibility","hidden");
+    }
+    else {
+      $("#btnScrollToTop").css("visibility","visible");
+      //The button will change it's color when it hits the footer
+      if($(window).scrollTop() + $(window).height() > $(document).height() - 838) {
+        // 838 should be changed if footer's height is changed so that the button changes it's color exactly when it hits the footer (preferably 14 less than the computer height of the footer)
+        $("#btnScrollToTop").css("background-color","#43D1Af");
+      }
+      else {
+        $("#btnScrollToTop").css("background-color","#6C63FF");
+      }
+    }
+  })
+});
+
+//function to scroll to top
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth"
+  });
+}
 
 // Window Loads
 $(function () {
     let bodyElement = $('body');
     bodyElement.prepend(header);
     bodyElement.append(footer);
+    bodyElement.append(upArrow);
+    $("#btnScrollToTop").css("visibility","hidden");
   
 //toggler hamburger functions
     const menuBtn = document.querySelector('.navbar-toggler');
@@ -255,39 +292,27 @@ $(function () {
 
 // Dark mode
 
-$(document).ready(function(){
-  if (localStorage.getItem('darkMode') === 'enabled') {
-    $("#checkboxtoggle").prop("checked", true);
-    $('body').addClass('darkmode');
-    $('.text-dark').addClass('darkmodetext');
-    $('tr').addClass('bordered');
-    $('.loader-container').addClass('darkmode');
+function toggle_light_mode() {
+  var app = document.getElementsByTagName("HTML")[0];
+  var nav = document.getElementById("navbar");
+  if (localStorage.lightMode == "dark") {
+      localStorage.lightMode = "light";
+      app.setAttribute("light-mode", "light");
+      nav.classList.remove("dark-theme");
+  } else {
+      nav.classList.add("dark-theme");
+      localStorage.lightMode = "dark";
+      app.setAttribute("light-mode", "dark");
   }
-});
+}
 
-$(document).ready(function(){
-  $('input[type="checkbox"]').click(function(){
-      if($(this).prop("checked") == true){
-        $('body').addClass('darkmode');
-        $('.text-dark').addClass('darkmodetext');
-        $('tr').addClass('bordered');
-        if ($("#Layer_13").length != 0) {
-          $("#Layer_13").css({"fill": "#070D2D"});
-        }
-        localStorage.setItem('darkMode', 'enabled');
-        
-      }
-      else if($(this).prop("checked") == false){
-        $('body').removeClass('darkmode');
-        $('.text-dark').removeClass('darkmodetext');
-        $('tr').removeClass('bordered');
-        if ($("#Layer_13").length != 0) {
-          $("#Layer_13").css({"fill": "#FFFFFF"});
-        }
-        localStorage.setItem('darkMode', null);
-      }
-  });
-});
+window.addEventListener("storage", function() {
+  if (localStorage.lightMode == "dark") {
+      app.setAttribute("light-mode", "dark");
+  } else {
+      app.setAttribute("light-mode", "light");
+  }
+}, false); 
 
 // Navbar current page highlight
 

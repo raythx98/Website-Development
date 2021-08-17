@@ -1,19 +1,18 @@
+@import url(./style.css);
+
 /* Dark and Light theme */
 
-html[data-theme = 'light']
-{
+html[data-theme='light'] {
   --bg1-color: #ecf0f3;
   --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  --border:1px solid #ecf0f3;
+  --border: 1px solid #ecf0f3;
 }
 
-html[data-theme = 'dark']
-{
+html[data-theme='dark'] {
   --bg1-color: #272727;
   --shadow: 0 4px 8px 0 rgba(104, 102, 102, 0.2);
-  --border:none;
+  --border: none;
 }
-
 .education_head{
   font-weight:bold;
 }
@@ -136,6 +135,16 @@ html[data-theme = 'dark']
 
 .s2 h4,h6,p{
   color:black;
+}
+
+.card .row {
+  color: black;
+}
+
+.s2 h4,
+h6,
+p {
+    color: var(--text);
 }
 
 @media only screen and (min-width: 1px) and (max-width: 767px) {
